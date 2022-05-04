@@ -12,13 +12,13 @@ import Spinner from './components/Spinner';
 const App: React.FC = () => {
   return (
     <>
+      <Spinner />
       <Landing />
       <About />
       <Projects />
       <Skills />
       <Contact />
       <Footer />
-      <Spinner />
     </>
   );
 };

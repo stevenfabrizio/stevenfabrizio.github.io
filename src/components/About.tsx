@@ -1,6 +1,8 @@
 import React from 'react';
 
-const About: React.FC = () => {
+import Selfie from '../images/selfie.webp';
+
+const AboutMe: React.FC = () => {
   //targeted by element in diff component to scroll to
   const aboutRef: React.MutableRefObject<HTMLDivElement> =
     React.useRef<HTMLDivElement>(null);
@@ -21,9 +23,11 @@ const About: React.FC = () => {
 
     arrowEle.onclick = ScrollToAbout;
   }, []);
-  
+
   return (
-    <div className="about-container" ref={aboutRef}>
+    <div className="about-me-container" ref={aboutRef}>
+      <div className="abT"></div>
+
       <h3 className="h3-observable">About Me</h3>
 
       <div className="photo-container">
@@ -32,30 +36,32 @@ const About: React.FC = () => {
             alt="my-photo"
             loading="lazy"
             className="thumbnail overlay-img"
-            //   src={Selfie}
+            src={Selfie}
           />
         </div>
       </div>
 
       <div className="p-container">
         <p>
-          <span className="hello">Hello!</span>
+          <span className="hello">Hi, I'm Steven 👋</span>
           <br />
           <br />
-          <span className="first">M</span>
-          <span className="second">y</span> name is Steven and I'm a web
-          developer. I have been programming since I was a kid. I love web
-          development because I am a math and logic oriented person with a
-          creative spirit. Beautiful websites and web designs inspire me. I want
-          to create them with a strong team that is passionate like me.
+          <span className="first">M </span>
+          <span className="second">y</span> passion for programming began when I
+          was a kid. I love web development because I am a math and logic
+          oriented person with a creative spirit. Beautiful websites and web
+          designs inspire me. I want to create them with a strong team that is
+          passionate like me.
           <br />
           <br />
           Apart from being a developer, I spend my time playing music on my
           guitar, riding my bike in my neighborhood, and reading books.
         </p>
       </div>
+
+      <div className="amB"></div>
     </div>
   );
 };
 
-export default About;
+export default AboutMe;

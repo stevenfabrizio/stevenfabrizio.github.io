@@ -4,8 +4,8 @@ const Landing: React.FC = () => {
 
   return (
     <div className="landing-container">
-      <h1 className="steven">steven</h1>
-      <h1 className="fabrizio">fabrizio</h1>
+      <h1 className="steven">Steven</h1>
+      <h1 className="fabrizio">Fabrizio</h1>
       <h2 className="web-developer">Web Developer</h2>
 
       <a

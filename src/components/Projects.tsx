@@ -500,23 +500,23 @@ export const Projects: React.FC = () => {
           </div>
           <div
             className="img-container7 overlay-img"
-            style={{ backgroundImage: `url(../../dist/proj7overlay.gif)` }}
+            style={{ backgroundImage: `url(../../dist/proj6overlay.gif)` }}
           ></div>
 
           <div className="project-h3-div">
             <h3>
               <a
                 target="_blank"
-                href="https://github.com/stevenfabrizio/youtube-to-mp3-project"
+                href="https://wiki-trans-test.herokuapp.com/"
               >
                 Wikipedia Translator
                 <img loading="lazy" src={ExternalLink} className="wiggles el" />
               </a>
-              <span className="technologies">JavaScript, Express</span>
+              <span className="technologies">PostgreSQL, Express, TypeScript, Redux</span>
             </h3>
           </div>
           <p>
-            A page where you can search a topic from Wikipedia and compare the english article with a nonenglish translated one.
+            A page where you can search a topic from Wikipedia and compare the english article with a foreign one.
           </p>
         </div>
         <div onClick={() => off()}></div>
