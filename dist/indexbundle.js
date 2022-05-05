@@ -2101,12 +2101,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(294));
 const Landing_1 = __importDefault(__webpack_require__(872));
+const Spinner_1 = __importDefault(__webpack_require__(52));
 const About_1 = __importDefault(__webpack_require__(685));
 const Projects_1 = __importDefault(__webpack_require__(757));
 const Skills_1 = __importDefault(__webpack_require__(368));
 const Contact_1 = __importDefault(__webpack_require__(182));
 const Footer_1 = __importDefault(__webpack_require__(23));
-const Spinner_1 = __importDefault(__webpack_require__(52));
 const App = () => {
     return (react_1.default.createElement(react_1.default.Fragment, null,
         react_1.default.createElement(Landing_1.default, null),
@@ -2148,7 +2148,7 @@ const AboutMe = () => {
     }, []);
     return (react_1.default.createElement("div", { className: "about-me-container", ref: aboutRef },
         react_1.default.createElement("div", { className: "abT" }),
-        react_1.default.createElement("h3", { className: "h3-observable" }, "About Mee"),
+        react_1.default.createElement("h3", { className: "h3-observable" }, "About Me"),
         react_1.default.createElement("div", { className: "photo-container" },
             react_1.default.createElement("div", { className: "photo-frame" },
                 react_1.default.createElement("img", { alt: "my-photo", loading: "lazy", className: "thumbnail overlay-img", src: selfie_webp_1.default }))),
@@ -2211,7 +2211,7 @@ const Contact = () => {
     return (react_1.default.createElement("div", { className: "contact-container" },
         react_1.default.createElement("div", { className: "contact-h3" },
             react_1.default.createElement("h3", { className: "h3-observable" }, "Contact me")),
-        react_1.default.createElement(react_1.default.Suspense, { fallback: react_1.default.createElement("span", null, "Loading form...") },
+        react_1.default.createElement(react_1.default.Suspense, { fallback: react_1.default.createElement(react_1.default.Fragment, null) },
             react_1.default.createElement(ContactForm, null))));
 };
 exports["default"] = Contact;
@@ -2451,7 +2451,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { id: "F1" },
                 react_1.default.createElement("div", { className: "x-div" },
-                    react_1.default.createElement("button", { className: "x-btn", onClick: () => off() }, "X")),
+                    react_1.default.createElement("button", { id: 'x1', className: "x-btn", onClick: () => off() }, "X")),
                 react_1.default.createElement("div", { className: "img-container1 overlay-img", style: { backgroundImage: `url(${proj1overlay_webp_1.default})` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
@@ -2473,7 +2473,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { id: "F2" },
                 react_1.default.createElement("div", { className: "x-div" },
-                    react_1.default.createElement("button", { className: "x-btn", onClick: () => off() }, "X")),
+                    react_1.default.createElement("button", { id: 'x2', className: "x-btn", onClick: () => off() }, "X")),
                 react_1.default.createElement("div", { className: "img-container2 overlay-img", style: { backgroundImage: `url(${proj2overlay_webp_1.default})` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
@@ -2493,7 +2493,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { id: "F3" },
                 react_1.default.createElement("div", { className: "x-div" },
-                    react_1.default.createElement("button", { className: "x-btn", onClick: () => off() }, "X")),
+                    react_1.default.createElement("button", { id: 'x3', className: "x-btn", onClick: () => off() }, "X")),
                 react_1.default.createElement("div", { className: "img-container3 overlay-img", style: { backgroundImage: `url(${proj3overlay_webp_1.default})` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
@@ -2513,7 +2513,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { id: "F4" },
                 react_1.default.createElement("div", { className: "x-div" },
-                    react_1.default.createElement("button", { className: "x-btn", onClick: () => off() }, "X")),
+                    react_1.default.createElement("button", { id: 'x4', className: "x-btn", onClick: () => off() }, "X")),
                 react_1.default.createElement("div", { className: "img-container4 overlay-img", style: { backgroundImage: `url(${proj5overlay_webp_1.default})` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
@@ -2533,7 +2533,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { id: "F5" },
                 react_1.default.createElement("div", { className: "x-div" },
-                    react_1.default.createElement("button", { className: "x-btn", onClick: () => off() }, "X")),
+                    react_1.default.createElement("button", { id: 'x5', className: "x-btn", onClick: () => off() }, "X")),
                 react_1.default.createElement("div", { className: "img-container5 overlay-img", style: { backgroundImage: `url(${proj4overlay_webp_1.default})` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
@@ -2553,7 +2553,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { id: "F6" },
                 react_1.default.createElement("div", { className: "x-div" },
-                    react_1.default.createElement("button", { className: "x-btn", onClick: () => off() }, "X")),
+                    react_1.default.createElement("button", { id: 'x6', className: "x-btn", onClick: () => off() }, "X")),
                 react_1.default.createElement("div", { className: "img-container6 overlay-img", style: { backgroundImage: `url(../../dist/proj6overlay.gif)` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
@@ -2573,7 +2573,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { id: "F7" },
                 react_1.default.createElement("div", { className: "x-div" },
-                    react_1.default.createElement("button", { className: "x-btn", onClick: () => off() }, "X")),
+                    react_1.default.createElement("button", { id: 'x7', className: "x-btn", onClick: () => off() }, "X")),
                 react_1.default.createElement("div", { className: "img-container7 overlay-img", style: { backgroundImage: `url(../../dist/proj6overlay.gif)` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
@@ -2581,7 +2581,7 @@ const Projects = () => {
                             "Wikipedia Translator",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
                         react_1.default.createElement("span", { className: "technologies" }, "PostgreSQL, Express, TypeScript, Redux"))),
-                react_1.default.createElement("p", null, "A page where you can search a topic from Wikipedia and compare the english article with a foreign one.")),
+                react_1.default.createElement("p", null, "A website where you can search for a Wikipedia topic and compare it with the non english translated topic.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),

@@ -1,10 +1,9 @@
 /* CONTACT SECTION */
 form * {
-  color: white;
 
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
 }
 .contact-container {
   background-color: white;
@@ -44,7 +43,7 @@ form {
 }
 form input {
   color: rgb(10, 10, 10);
-  height: 30px;
+  height: 36px;
   border-radius: 2px;
   width: 100%;
   max-width: 700px;
@@ -75,7 +74,7 @@ form textarea {
   text-shadow: none;
   border-radius: 2px;
 
-  padding-top: 2px;
+  padding-top: 4px;
   text-indent: 6px;
 
   resize: none;
@@ -98,6 +97,7 @@ input::placeholder {
   color: rgb(10, 10, 10);
   padding-left: 0px;
 }
+
 form button {
   height: 36px;
   border-radius: 2px;
@@ -117,14 +117,20 @@ form button {
 
   background-color: rgb(255, 255, 255);
   color: rgb(10, 10, 10);
-  font-size: 16px;
-  font-weight: 600;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  transition: 0.15s linear all;
 }
 form button:hover {
   text-decoration: underline rgb(10, 10, 10);
+  background-color: rgb(247, 247, 247);
 }
 .contact-container .submitted {
   margin: 40px;
+  margin-top: 80px;
 
   text-align: center;
   /* color: white; */

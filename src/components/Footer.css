@@ -21,7 +21,7 @@
 
   text-align: center;
 
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 .my-email {
   /* background-color: rgb(98, 98, 98); */
@@ -68,13 +68,13 @@
   -webkit-clip-path: circle(40% at 50% 50%);
   clip-path: circle(40% at 50% 50%);
 
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .resume {
   grid-row: 1;
   grid-column: 4;
 
-  fill: rgba(255, 255, 255, 0.86);
+  fill: rgba(255, 255, 255, 0.9);
 
-  transform: scale(0.95);
+  transform: scale(0.9);
 }

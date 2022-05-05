@@ -6,7 +6,7 @@
 
   margin: 0;
   padding: 0;
-  
+
   outline: none;
   border: none;
 
@@ -14,7 +14,6 @@
 }
 
 #root {
-  /* z-index: 11; */
   max-width: 100vw;
 
   background-color: white;

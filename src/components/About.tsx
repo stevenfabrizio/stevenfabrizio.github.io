@@ -28,7 +28,7 @@ const AboutMe: React.FC = () => {
     <div className="about-me-container" ref={aboutRef}>
       <div className="abT"></div>
 
-      <h3 className="h3-observable">About Mee</h3>
+      <h3 className="h3-observable">About Me</h3>
 
       <div className="photo-container">
         <div className="photo-frame">

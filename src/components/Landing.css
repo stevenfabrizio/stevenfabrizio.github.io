@@ -15,23 +15,24 @@
   grid-row: 1;
   grid-column: 1 / span 3;
 }
+
 .steven {
   grid-row: 2;
   grid-column: 1 / span 3;
 
-  font-size: 9rem;
+  font-size: 120px;
 
   margin-left: 6vw;
 
   transform: translateY(0vh);
-  animation: steven-anima 0.85s ease-out normal;
-  overflow-y: hidden;
+  animation: steven-anima .95s ease-out normal;
+  overflow-y:visible;
 }
 @keyframes steven-anima {
   0% {
-    transform: translateY(11vh);
+    transform: translateY(9vh);
   }
-  80% {
+  70% {
     transform: translateY(-1vh);
   }
   100% {
@@ -43,22 +44,22 @@
   grid-row: 3;
   grid-column: 1 / span 3;
 
-  font-size: 9rem;
+  font-size: 120px;
 
   margin-left: 12vw;
 
   transform: translateY(0vh);
-  animation: steven-anima 0.9s ease-out;
-  overflow-y: hidden;
+  animation: fabrizio-anima 1s ease-out;
+  overflow-y: visible;
 }
 @keyframes fabrizio-anima {
   0% {
-    transform: translateY(11vh);
+    transform: translateY(9vh);
   }
   5% {
-    transform: translateY(8vh);
+    transform: translateY(9vh);
   }
-  82% {
+  72% {
     transform: translateY(-1vh);
   }
   100% {
@@ -146,8 +147,8 @@
 .landing-container a {
   position: absolute;
   /* top: 0%; */
-
-  bottom: 7%;
+  bottom: 5%;
+  
   justify-self: center;
   align-self: center;
 

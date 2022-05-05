@@ -17,7 +17,6 @@ import ExternalLink from '../images/externallink.webp';
 import './Projects.css';
 
 export const Projects: React.FC = () => {
-  
   let spinnerContainer: HTMLDivElement = document.getElementById(
     'spinner-container'
   ) as HTMLDivElement;
@@ -191,7 +190,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F1">
           <div className="x-div">
-            <button className="x-btn" onClick={() => off()}>
+            <button id='x1' className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -232,7 +231,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F2">
           <div className="x-div">
-            <button className="x-btn" onClick={() => off()}>
+            <button id='x2' className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -273,7 +272,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F3">
           <div className="x-div">
-            <button className="x-btn" onClick={() => off()}>
+            <button id='x3' className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -315,7 +314,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F4">
           <div className="x-div">
-            <button className="x-btn" onClick={() => off()}>
+            <button id='x4' className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -358,7 +357,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F5">
           <div className="x-div">
-            <button className="x-btn" onClick={() => off()}>
+            <button id='x5' className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -401,7 +400,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F6">
           <div className="x-div">
-            <button className="x-btn" onClick={() => off()}>
+            <button id='x6' className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -424,8 +423,7 @@ export const Projects: React.FC = () => {
           </div>
           <p>
             A simple app where you paste YouTube links and get MP3s back. This
-            is personally my favorite app that I use all the time. You can use
-            it too by cloning it to your machine from the link above.
+            is personally my favorite app that I use all the time. You can clone it to your machine from the link above.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -441,7 +439,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F7">
           <div className="x-div">
-            <button className="x-btn" onClick={() => off()}>
+            <button id='x7' className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -462,8 +460,8 @@ export const Projects: React.FC = () => {
             </h3>
           </div>
           <p>
-            A page where you can search a topic from Wikipedia and compare the
-            english article with a foreign one.
+            A website where you can search for a Wikipedia topic and compare it
+            with the non english translated topic.
           </p>
         </div>
         <div onClick={() => off()}></div>
