@@ -1553,6 +1553,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ 627:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ 779:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1584,6 +1594,16 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 549:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ 682:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2134,7 +2154,9 @@ const AboutMe = () => {
                 react_1.default.createElement("img", { alt: "my-photo", loading: "lazy", className: "thumbnail overlay-img", src: selfie_webp_1.default }))),
         react_1.default.createElement("div", { className: "p-container" },
             react_1.default.createElement("p", null,
-                react_1.default.createElement("span", { className: "hello" }, "Hi, I'm Steven \uD83D\uDC4B"),
+                react_1.default.createElement("span", { className: "hello" },
+                    "Hi, I'm Steven",
+                    react_1.default.createElement("span", { className: "wave-hand" }, "\uD83D\uDC4B")),
                 react_1.default.createElement("br", null),
                 react_1.default.createElement("br", null),
                 react_1.default.createElement("span", { className: "first" }, "M "),
@@ -2183,11 +2205,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(294));
+__webpack_require__(627);
 const ContactForm = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(787))));
 const Contact = () => {
     return (react_1.default.createElement("div", { className: "contact-container" },
         react_1.default.createElement("div", { className: "contact-h3" },
-            react_1.default.createElement("h3", { className: "h3-observable" }, "Contact")),
+            react_1.default.createElement("h3", { className: "h3-observable" }, "Contact me")),
         react_1.default.createElement(react_1.default.Suspense, { fallback: react_1.default.createElement("span", null, "Loading form...") },
             react_1.default.createElement(ContactForm, null))));
 };
@@ -2319,6 +2342,14 @@ const Proj6_webp_1 = __importDefault(__webpack_require__(858));
 const externallink_webp_1 = __importDefault(__webpack_require__(434));
 __webpack_require__(167);
 const Projects = () => {
+    let spinnerContainer = document.getElementById('spinner-container');
+    const float1Ref = react_1.default.useRef();
+    const float2Ref = react_1.default.useRef();
+    const float3Ref = react_1.default.useRef();
+    const float4Ref = react_1.default.useRef();
+    const float5Ref = react_1.default.useRef();
+    const float6Ref = react_1.default.useRef();
+    const float7Ref = react_1.default.useRef();
     let Displays;
     (function (Displays) {
         Displays["grid"] = "grid";
@@ -2327,90 +2358,71 @@ const Projects = () => {
         Displays["positive"] = "10";
     })(Displays || (Displays = {}));
     const onProj1 = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater1 = document.getElementById('floater1');
         spinnerContainer.style.zIndex = Displays.positive;
-        floater1.style.display = Displays.grid;
-        setTimeout(function () {
+        float1Ref.current.style.display = Displays.grid;
+        setTimeout(() => {
             spinnerContainer.style.zIndex = Displays.negative;
         }, 550);
     };
     const onProj2 = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater2 = document.getElementById('floater2');
         spinnerContainer.style.zIndex = Displays.positive;
-        floater2.style.display = Displays.grid;
-        setTimeout(function () {
+        float2Ref.current.style.display = Displays.grid;
+        setTimeout(() => {
             spinnerContainer.style.zIndex = Displays.negative;
         }, 550);
     };
     const onProj3 = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater3 = document.getElementById('floater3');
         spinnerContainer.style.zIndex = Displays.positive;
-        floater3.style.display = Displays.grid;
-        setTimeout(function () {
+        float3Ref.current.style.display = Displays.grid;
+        setTimeout(() => {
             spinnerContainer.style.zIndex = Displays.negative;
         }, 550);
     };
     const onProj4 = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater4 = document.getElementById('floater4');
         spinnerContainer.style.zIndex = Displays.positive;
-        floater4.style.display = Displays.grid;
-        setTimeout(function () {
+        float4Ref.current.style.display = Displays.grid;
+        setTimeout(() => {
             spinnerContainer.style.zIndex = Displays.negative;
         }, 550);
     };
     const onProj5 = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater5 = document.getElementById('floater5');
         spinnerContainer.style.zIndex = Displays.positive;
-        floater5.style.display = Displays.grid;
-        setTimeout(function () {
+        float5Ref.current.style.display = Displays.grid;
+        setTimeout(() => {
             spinnerContainer.style.zIndex = Displays.negative;
         }, 550);
     };
     const onProj6 = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater5 = document.getElementById('floater6');
         spinnerContainer.style.zIndex = Displays.positive;
-        floater5.style.display = Displays.grid;
-        setTimeout(function () {
+        float6Ref.current.style.display = Displays.grid;
+        setTimeout(() => {
             spinnerContainer.style.zIndex = Displays.negative;
         }, 550);
     };
     const onProj7 = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater5 = document.getElementById('floater7');
         spinnerContainer.style.zIndex = Displays.positive;
-        floater5.style.display = Displays.grid;
-        setTimeout(function () {
+        float7Ref.current.style.display = Displays.grid;
+        setTimeout(() => {
             spinnerContainer.style.zIndex = Displays.negative;
         }, 550);
     };
     const off = () => {
-        const spinnerContainer = document.getElementById('spinner-container');
-        const floater1 = document.getElementById('floater1');
-        const floater2 = document.getElementById('floater2');
-        const floater3 = document.getElementById('floater3');
-        const floater4 = document.getElementById('floater4');
-        const floater5 = document.getElementById('floater5');
-        const floater6 = document.getElementById('floater6');
-        const floater7 = document.getElementById('floater7');
-        floater1.style.display = Displays.none;
-        floater2.style.display = Displays.none;
-        floater3.style.display = Displays.none;
-        floater4.style.display = Displays.none;
-        floater5.style.display = Displays.none;
-        floater6.style.display = Displays.none;
-        floater7.style.display = Displays.none;
+        float1Ref.current.style.display = Displays.none;
+        float2Ref.current.style.display = Displays.none;
+        float3Ref.current.style.display = Displays.none;
+        float4Ref.current.style.display = Displays.none;
+        float5Ref.current.style.display = Displays.none;
+        float6Ref.current.style.display = Displays.none;
+        float7Ref.current.style.display = Displays.none;
         spinnerContainer.style.zIndex = Displays.negative;
     };
+    react_1.default.useEffect(() => {
+        spinnerContainer = document.getElementById('spinner-container');
+    }, []);
     return (react_1.default.createElement(react_1.default.Fragment, null,
         react_1.default.createElement("div", { className: "projects-container" },
             react_1.default.createElement("div", { className: "proj-h3-container" },
-                react_1.default.createElement("h3", { className: "proj-h3" }, "Projects")),
+                react_1.default.createElement("h3", { className: "proj-h3" }, "Some projects")),
             react_1.default.createElement("div", { className: "projR1 proj", id: "p1", onClick: onProj1 },
                 react_1.default.createElement("div", { className: "proj-hover-img", style: { backgroundImage: `url(${proj1_webp_1.default})` } }),
                 react_1.default.createElement("h4", null, "Twisted Tiki Restaurant")),
@@ -2432,7 +2444,7 @@ const Projects = () => {
             react_1.default.createElement("div", { className: "projR7 proj", id: "p7", onClick: onProj7 },
                 react_1.default.createElement("div", { className: "proj-hover-img", style: { backgroundImage: `url(${Proj6_webp_1.default})` } }),
                 react_1.default.createElement("h4", null, "Wikipedia Translator"))),
-        react_1.default.createElement("div", { id: "floater1", className: "overlay" },
+        react_1.default.createElement("div", { id: "floater1", ref: float1Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2454,7 +2466,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() })),
-        react_1.default.createElement("div", { id: "floater2", className: "overlay" },
+        react_1.default.createElement("div", { id: "floater2", ref: float2Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2474,7 +2486,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() })),
-        react_1.default.createElement("div", { id: "floater3", className: "overlay" },
+        react_1.default.createElement("div", { id: "floater3", ref: float3Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2494,7 +2506,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() })),
-        react_1.default.createElement("div", { id: "floater4", className: "overlay" },
+        react_1.default.createElement("div", { id: "floater4", ref: float4Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2514,7 +2526,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() })),
-        react_1.default.createElement("div", { id: "floater5", className: "overlay" },
+        react_1.default.createElement("div", { id: "floater5", ref: float5Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2534,7 +2546,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() })),
-        react_1.default.createElement("div", { id: "floater6", className: "overlay" },
+        react_1.default.createElement("div", { id: "floater6", ref: float6Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2554,7 +2566,7 @@ const Projects = () => {
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() })),
-        react_1.default.createElement("div", { id: "floater7", className: "overlay" },
+        react_1.default.createElement("div", { id: "floater7", ref: float7Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2646,6 +2658,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(294));
+__webpack_require__(682);
 const Spinner = () => {
     return (react_1.default.createElement("div", { id: "spinner-container" },
         react_1.default.createElement("div", { className: "lds-spinner" },

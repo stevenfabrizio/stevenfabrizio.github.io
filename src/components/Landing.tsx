@@ -1,9 +1,8 @@
 import React from 'react';
 
-import './Landing.css'
+import './Landing.css';
 
 const Landing: React.FC = () => {
-
   return (
     <div className="landing-container">
       <div className="empty-lc-div"></div>
@@ -16,7 +15,7 @@ const Landing: React.FC = () => {
         data-ca3_iconfont="ETmodules"
         data-ca3_icon=""
         id="arrow"
-      ></a>
+      />
     </div>
   );
 };

@@ -5,13 +5,12 @@ import Selfie from '../images/selfie.webp';
 
 const AboutMe: React.FC = () => {
   //targeted by element in diff component to scroll to
-  const aboutRef: React.RefObject<HTMLDivElement> =
-    React.useRef<HTMLDivElement>(null);
+  const aboutRef = React.useRef<HTMLDivElement>(null);
 
   //making arrow clicked scroll to about-me section.
-  const ScrollToAbout: () => void = () => {
+  const ScrollToAbout = () => {
     window.scrollTo({
-      top: aboutRef.current!.offsetTop,
+      top: aboutRef.current.offsetTop,
       behavior: 'smooth',
     });
   };
@@ -44,7 +43,10 @@ const AboutMe: React.FC = () => {
 
       <div className="p-container">
         <p>
-          <span className="hello">Hi, I'm Steven 👋</span>
+          <span className="hello">
+            Hi, I'm Steven
+            <span className="wave-hand">👋</span>
+          </span>
           <br />
           <br />
           <span className="first">M </span>

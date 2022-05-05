@@ -42,6 +42,7 @@
 
   display: grid;
 }
+
 /* .proj-h3-anima {
     animation: h3-animation 1s linear;
   }
@@ -83,14 +84,11 @@
 }
 .proj {
   background-color: rgb(255, 255, 255);
-
   transform: translate3d(0%, 0%, 0px);
-
-  border: 4px double rgb(255, 255, 255);
 
   cursor: pointer;
 
-  border-radius: 2px;
+  border-radius: 1px;
 
   margin-top: 10px;
   margin-bottom: 20px;
@@ -106,14 +104,15 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
 
-  /* padding: 10px; */
-
   align-items: center;
   justify-items: center;
 
   /* box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 6px 0px; */
-  box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 4px 0px;
+  box-shadow: rgba(10, 10, 10, 0.7) 0px 1px 1px 0px;
+
+  /* outline: 1px solid rgb(200, 200, 200); */
 }
+
 #p1 {
   justify-self: start;
   margin-left: 5vw;
@@ -507,9 +506,7 @@ i {
 
   align-self: center;
   justify-self: center;
-  /* 
-    filter: hue-rotate(90deg) invert(60%); */
-  filter: invert(80%);
+  filter: invert(7%);
 }
 .wiggles {
   animation: wiggle 1.8s linear 1s infinite;

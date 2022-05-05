@@ -17,6 +17,19 @@ import ExternalLink from '../images/externallink.webp';
 import './Projects.css';
 
 export const Projects: React.FC = () => {
+  
+  let spinnerContainer: HTMLDivElement = document.getElementById(
+    'spinner-container'
+  ) as HTMLDivElement;
+
+  const float1Ref = React.useRef<HTMLDivElement>();
+  const float2Ref = React.useRef<HTMLDivElement>();
+  const float3Ref = React.useRef<HTMLDivElement>();
+  const float4Ref = React.useRef<HTMLDivElement>();
+  const float5Ref = React.useRef<HTMLDivElement>();
+  const float6Ref = React.useRef<HTMLDivElement>();
+  const float7Ref = React.useRef<HTMLDivElement>();
+
   //these functions will toggle the project overlays
   //positive and negative will be z-indexes that overlay the page or hide behind it.
   enum Displays {
@@ -26,159 +39,92 @@ export const Projects: React.FC = () => {
     positive = '10',
   }
 
-  const onProj1: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater1: HTMLDivElement = document.getElementById(
-      'floater1'
-    ) as HTMLDivElement;
-
+  const onProj1 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
-    floater1.style.display = Displays.grid;
+    float1Ref.current.style.display = Displays.grid;
 
-    setTimeout(function () {
+    setTimeout(() => {
       spinnerContainer.style.zIndex = Displays.negative;
     }, 550);
   };
 
-  const onProj2: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater2: HTMLDivElement = document.getElementById(
-      'floater2'
-    ) as HTMLDivElement;
-
+  const onProj2 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
-    floater2.style.display = Displays.grid;
+    float2Ref.current.style.display = Displays.grid;
 
-    setTimeout(function () {
+    setTimeout(() => {
       spinnerContainer.style.zIndex = Displays.negative;
     }, 550);
   };
 
-  const onProj3: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater3: HTMLDivElement = document.getElementById(
-      'floater3'
-    ) as HTMLDivElement;
-
+  const onProj3 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
-    floater3.style.display = Displays.grid;
+    float3Ref.current.style.display = Displays.grid;
 
-    setTimeout(function () {
+    setTimeout(() => {
       spinnerContainer.style.zIndex = Displays.negative;
     }, 550);
   };
 
-  const onProj4: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater4: HTMLDivElement = document.getElementById(
-      'floater4'
-    ) as HTMLDivElement;
-
+  const onProj4 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
-    floater4.style.display = Displays.grid;
+    float4Ref.current.style.display = Displays.grid;
 
-    setTimeout(function () {
+    setTimeout(() => {
       spinnerContainer.style.zIndex = Displays.negative;
     }, 550);
   };
 
-  const onProj5: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater5: HTMLDivElement = document.getElementById(
-      'floater5'
-    ) as HTMLDivElement;
-
+  const onProj5 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
-    floater5.style.display = Displays.grid;
+    float5Ref.current.style.display = Displays.grid;
 
-    setTimeout(function () {
+    setTimeout(() => {
       spinnerContainer.style.zIndex = Displays.negative;
     }, 550);
   };
 
-  const onProj6: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater5: HTMLDivElement = document.getElementById(
-      'floater6'
-    ) as HTMLDivElement;
-
+  const onProj6 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
-    floater5.style.display = Displays.grid;
+    float6Ref.current.style.display = Displays.grid;
 
-    setTimeout(function () {
+    setTimeout(() => {
       spinnerContainer.style.zIndex = Displays.negative;
     }, 550);
   };
 
-  const onProj7: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater5: HTMLDivElement = document.getElementById(
-      'floater7'
-    ) as HTMLDivElement;
-
+  const onProj7 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
-    floater5.style.display = Displays.grid;
+    float7Ref.current.style.display = Displays.grid;
 
-    setTimeout(function () {
+    setTimeout(() => {
       spinnerContainer.style.zIndex = Displays.negative;
     }, 550);
   };
 
-  const off: () => void = () => {
-    const spinnerContainer: HTMLDivElement = document.getElementById(
-      'spinner-container'
-    ) as HTMLDivElement;
-    const floater1: HTMLDivElement = document.getElementById(
-      'floater1'
-    ) as HTMLDivElement;
-    const floater2: HTMLDivElement = document.getElementById(
-      'floater2'
-    ) as HTMLDivElement;
-    const floater3: HTMLDivElement = document.getElementById(
-      'floater3'
-    ) as HTMLDivElement;
-    const floater4: HTMLDivElement = document.getElementById(
-      'floater4'
-    ) as HTMLDivElement;
-    const floater5: HTMLDivElement = document.getElementById(
-      'floater5'
-    ) as HTMLDivElement;
-    const floater6: HTMLDivElement = document.getElementById(
-      'floater6'
-    ) as HTMLDivElement;
-    const floater7: HTMLDivElement = document.getElementById(
-      'floater7'
-    ) as HTMLDivElement;
-
-    floater1.style.display = Displays.none;
-    floater2.style.display = Displays.none;
-    floater3.style.display = Displays.none;
-    floater4.style.display = Displays.none;
-    floater5.style.display = Displays.none;
-    floater6.style.display = Displays.none;
-    floater7.style.display = Displays.none;
+  const off = () => {
+    float1Ref.current.style.display = Displays.none;
+    float2Ref.current.style.display = Displays.none;
+    float3Ref.current.style.display = Displays.none;
+    float4Ref.current.style.display = Displays.none;
+    float5Ref.current.style.display = Displays.none;
+    float6Ref.current.style.display = Displays.none;
+    float7Ref.current.style.display = Displays.none;
     spinnerContainer.style.zIndex = Displays.negative;
   };
+
+  //properly assign spinner container when this component loads
+  React.useEffect(() => {
+    spinnerContainer = document.getElementById(
+      'spinner-container'
+    ) as HTMLDivElement;
+  }, []);
 
   return (
     <>
       <div className="projects-container">
         <div className="proj-h3-container">
-          <h3 className="proj-h3">Projects</h3>
+          <h3 className="proj-h3">Some projects</h3>
         </div>
 
         <div className="projR1 proj" id="p1" onClick={onProj1}>
@@ -238,7 +184,7 @@ export const Projects: React.FC = () => {
         </div>
       </div>
 
-      <div id="floater1" className="overlay">
+      <div id="floater1" ref={float1Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
@@ -279,7 +225,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
       </div>
 
-      <div id="floater2" className="overlay">
+      <div id="floater2" ref={float2Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
@@ -320,7 +266,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
       </div>
 
-      <div id="floater3" className="overlay">
+      <div id="floater3" ref={float3Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
@@ -362,7 +308,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
       </div>
 
-      <div id="floater4" className="overlay">
+      <div id="floater4" ref={float4Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
@@ -405,7 +351,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
       </div>
 
-      <div id="floater5" className="overlay">
+      <div id="floater5" ref={float5Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
@@ -448,7 +394,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
       </div>
 
-      <div id="floater6" className="overlay">
+      <div id="floater6" ref={float6Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
@@ -488,7 +434,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
       </div>
 
-      <div id="floater7" className="overlay">
+      <div id="floater7" ref={float7Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>

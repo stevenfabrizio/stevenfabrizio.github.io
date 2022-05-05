@@ -1,0 +1,135 @@
+/* CONTACT SECTION */
+form * {
+  color: white;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contact-container {
+  background-color: white;
+
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+.contact-container .contact-h3 {
+  grid-row: 1;
+  display: grid;
+
+  padding-bottom: 20px;
+}
+.contact-h3 h3 {
+  text-align: center;
+
+  font-size: 54px;
+
+  color: rgb(18, 18, 18);
+}
+form {
+  grid-row: 2;
+  width: 70%;
+
+  display: grid;
+  border: none;
+
+  grid-template-columns: 1fr;
+
+  justify-self: center;
+  align-self: center;
+  justify-items: center;
+  align-items: center;
+
+  padding-bottom: 20px;
+}
+form input {
+  color: rgb(10, 10, 10);
+  height: 30px;
+  border-radius: 2px;
+  width: 100%;
+  max-width: 700px;
+
+  text-indent: 2px;
+
+  border: 1px solid rgb(98, 98, 98);
+
+  text-shadow: none;
+}
+form input::placeholder {
+  color: rgb(39, 39, 39);
+}
+#e-mail {
+  text-indent: 6px;
+}
+#e-mail::placeholder {
+  text-indent: 6px;
+  color: rgb(43, 43, 43);
+}
+
+form textarea {
+  color: rgb(10, 10, 10);
+
+  border: 1px solid rgb(98, 98, 98);
+  height: 150px;
+  width: 100%;
+  text-shadow: none;
+  border-radius: 2px;
+
+  padding-top: 2px;
+  text-indent: 6px;
+
+  resize: none;
+
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 700px;
+}
+form textarea::placeholder {
+  color: rgb(10, 10, 10);
+}
+textarea:focus::placeholder,
+#e-mail:focus::placeholder {
+  color: rgba(10, 10, 10, 0);
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: rgb(10, 10, 10);
+  padding-left: 0px;
+}
+form button {
+  height: 36px;
+  border-radius: 2px;
+
+  width: 100%;
+  padding-right: 10px;
+
+  max-width: 700px;
+
+  text-shadow: none;
+  cursor: pointer;
+
+  display: block;
+  text-align: center;
+
+  border: 1px solid rgb(98, 98, 98);
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  font-weight: 600;
+}
+form button:hover {
+  text-decoration: underline rgb(10, 10, 10);
+}
+.contact-container .submitted {
+  margin: 40px;
+
+  text-align: center;
+  /* color: white; */
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+
+  height: 256px;
+}

@@ -1,328 +1,184 @@
 /* skills */
 .skills-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+
+  align-items: center;
+  justify-items: center;
+
+  background-color: rgb(10, 10, 10);
   
-    align-items: center;
-    justify-items: center;
-  
-    background-color: rgb(18, 18, 18);
-    /* background-size: 58px 58px;
-      background-position: 0px 2px, 4px 35px, 29px 31px, 33px 6px, 0px 36px, 4px 2px,
-        29px 6px, 33px 30px;
-      background-image: linear-gradient(
-          335deg,
-          rgb(18, 18, 18) 23px,
-          transparent 23px
-        ),
-        linear-gradient(155deg, rgb(18, 18, 18) 23px, transparent 23px),
-        linear-gradient(335deg, rgb(18, 18, 18) 23px, transparent 23px),
-        linear-gradient(155deg, rgb(18, 18, 18) 23px, transparent 23px),
-        linear-gradient(335deg, rgb(18, 18, 18) 10px, transparent 10px),
-        linear-gradient(155deg, rgb(18, 18, 18) 10px, transparent 10px),
-        linear-gradient(335deg, rgb(18, 18, 18) 10px, transparent 10px),
-        linear-gradient(155deg, rgb(18, 18, 18) 10px, transparent 10px); */
-  
-    margin-top: 30px;
-  }
-  .skills-container * {
-    color: white;
-    align-self: center;
-    justify-self: center;
-  
-    text-align: center;
-  }
-  .first-skills-div {
-    /* background-color: white; */
-    background-color: white;
-    grid-row: 1;
-    grid-column: 1 / span 8;
-  
-    width: 100%;
-    align-self: end;
-    justify-self: end;
-  
-    height: 50px;
-    /* -webkit-clip-path: ellipse(75% 100% at 50% 0%);
+  margin-top: 12vh;
+  margin-bottom: 10vh;
+}
+.skills-container * {
+  color: white;
+  align-self: center;
+  justify-self: center;
+
+  text-align: center;
+}
+.first-skills-div {
+  /* background-color: white; */
+  background-color: white;
+  grid-row: 1;
+  grid-column: 1 / span 8;
+
+  width: 100%;
+  align-self: end;
+  justify-self: end;
+
+  height: 50px;
+  /* -webkit-clip-path: ellipse(75% 100% at 50% 0%);
     clip-path: ellipse(75% 100% at 50% 0%); */
-  }
-  
-  .last-skills-div {
-    /* background-color: rgb(98, 98, 98); */
-    background-color: white;
-    padding-bottom: 50px;
-  
-    grid-row: 4;
-    grid-column: 1 / span 8;
-    margin-top: 20px;
-    width: 100%;
-    height: 20px;
-  
-    /* -webkit-clip-path: ellipse(75% 100% at 50% 100%);
+}
+
+.last-skills-div {
+  /* background-color: rgb(98, 98, 98); */
+  background-color: white;
+  padding-bottom: 50px;
+
+  grid-row: 4;
+  grid-column: 1 / span 8;
+  margin-top: 20px;
+  width: 100%;
+  height: 20px;
+
+  /* -webkit-clip-path: ellipse(75% 100% at 50% 100%);
     clip-path: ellipse(75% 100% at 50% 100%); */
+}
+.skills-container h3 {
+  color: white;
+  font-size: 54px;
+
+  grid-row: 2;
+  grid-column: 1 / span 8;
+
+  padding-bottom: 20px;
+
+  background-color: rgba(255, 235, 205, 0);
+}
+.a-skill {
+  width: 100%;
+  grid-row: 3;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+}
+.skills-container div span {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+
+  text-align: center;
+
+  padding-top: 4px;
+
+  white-space: pre;
+}
+.skills-container div * {
+  width: 70px;
+}
+.html5-anima {
+  z-index: 4;
+  animation: html5-animation 1.5s ease-out;
+}
+@keyframes html5-animation {
+  0% {
+    transform: translateX(42vw);
   }
-  .skills-container h3 {
-    color: white;
-    font-size: 54px;
-  
-    grid-row: 2;
-    grid-column: 1 / span 8;
-  
-    padding-bottom: 20px;
-  
-    background-color: rgba(255, 235, 205, 0);
+  100% {
+    transform: none;
   }
-  .a-skill {
-    width: 100%;
-    grid-row: 3;
-  
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+}
+.css-anima {
+  z-index: 3;
+  animation: css-animation 1.5s ease-out;
+}
+@keyframes css-animation {
+  0% {
+    transform: translateX(28vw);
   }
-  .skills-container div span {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-  
-    text-align: center;
-  
-    padding-top: 4px;
-  
-    white-space: pre;
+  100% {
+    transform: none;
   }
-  .skills-container div * {
-    width: 70px;
+}
+.javascript-anima {
+  z-index: 2;
+  animation: javascript-animation 1.5s ease-out;
+}
+@keyframes javascript-animation {
+  0% {
+    transform: translateX(14vw);
   }
-  .html5-anima {
-    z-index: 4;
-    animation: html5-animation 1.5s ease-out;
+  100% {
+    transform: none;
   }
-  @keyframes html5-animation {
-    0% {
-      transform: translateX(42vw);
-    }
-    100% {
-      transform: none;
-    }
+}
+.typescript-anima {
+  z-index: 1;
+  animation: typescript-animation 1.5s ease-out;
+}
+@keyframes typescript-animation {
+  0% {
+    transform: translateX(0vw);
   }
-  .css-anima {
-    z-index: 3;
-    animation: css-animation 1.5s ease-out;
+  100% {
+    transform: none;
   }
-  @keyframes css-animation {
-    0% {
-      transform: translateX(28vw);
-    }
-    100% {
-      transform: none;
-    }
+}
+.react-anima {
+  z-index: 2;
+  animation: react-animation 1.5s ease-out;
+}
+@keyframes react-animation {
+  0% {
+    transform: translateX(-14vw);
   }
-  .javascript-anima {
-    z-index: 2;
-    animation: javascript-animation 1.5s ease-out;
+  100% {
+    transform: none;
   }
-  @keyframes javascript-animation {
-    0% {
-      transform: translateX(14vw);
-    }
-    100% {
-      transform: none;
-    }
+}
+.redux-anima {
+  z-index: 3;
+  animation: redux-animation 1.5s ease-out;
+}
+@keyframes redux-animation {
+  0% {
+    transform: translateX(-28vw);
   }
-  .typescript-anima {
-    z-index: 1;
-    animation: typescript-animation 1.5s ease-out;
+  100% {
+    transform: none;
   }
-  @keyframes typescript-animation {
-    0% {
-      transform: translateX(0vw);
-    }
-    100% {
-      transform: none;
-    }
+}
+.express-anima {
+  z-index: 4;
+  animation: express-animation 1.5s ease-out;
+}
+@keyframes express-animation {
+  0% {
+    transform: translateX(-42vw);
   }
-  .react-anima {
-    z-index: 2;
-    animation: react-animation 1.5s ease-out;
+  100% {
+    transform: none;
   }
-  @keyframes react-animation {
-    0% {
-      transform: translateX(-14vw);
-    }
-    100% {
-      transform: none;
-    }
+}
+
+.skills-span-anima {
+  animation: span-fade 2s linear;
+}
+@keyframes span-fade {
+  0% {
+    opacity: 0;
+    color: rgba(228, 228, 228, 0);
   }
-  .redux-anima {
-    z-index: 3;
-    animation: redux-animation 1.5s ease-out;
+  80% {
+    opacity: 0;
+    color: rgba(228, 228, 228, 0);
   }
-  @keyframes redux-animation {
-    0% {
-      transform: translateX(-28vw);
-    }
-    100% {
-      transform: none;
-    }
+  100% {
+    opacity: 1;
   }
-  .express-anima {
-    z-index: 4;
-    animation: express-animation 1.5s ease-out;
-  }
-  @keyframes express-animation {
-    0% {
-      transform: translateX(-42vw);
-    }
-    100% {
-      transform: none;
-    }
-  }
-  
-  /* CONTACT SECTION */
-  form * {
-    color: white;
-  
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  .contact-container {
-    /* background-color: rgb(98, 98, 98); */
-    background-color: white;
-  
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr;
-  }
-  .contact-container .contact-h3 {
-    grid-row: 1;
-    display: grid;
-  
-    padding-bottom: 20px;
-  }
-  .contact-h3 h3 {
-    /* color: white; */
-    color: rgb(18, 18, 18);
-  }
-  form {
-    grid-row: 2;
-    width: 70%;
-  
-    display: grid;
-    border: none;
-  
-    grid-template-columns: 1fr;
-  
-    justify-self: center;
-    align-self: center;
-    justify-items: center;
-    align-items: center;
-  
-    padding-bottom: 20px;
-  }
-  form input {
-    color: black;
-    height: 30px;
-    border-radius: 2px;
-    width: 100%;
-    max-width: 700px;
-    text-indent: 2px;
-  
-    border: 4px double rgb(98, 98, 98);
-  
-    background-color: rgb(255, 255, 255);
-    text-shadow: none;
-  }
-  form input::placeholder {
-    color: rgb(39, 39, 39);
-  }
-  #e-mail {
-    text-indent: 6px;
-  }
-  #e-mail::placeholder {
-    text-indent: 6px;
-    color: rgb(43, 43, 43);
-  }
-  
-  form textarea {
-    color: rgb(0, 0, 0);
-  
-    border: 4px double rgb(98, 98, 98);
-    height: 150px;
-    width: 100%;
-    text-shadow: none;
-    border-radius: 2px;
-    text-indent: 6px;
-  
-    resize: none;
-  
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 700px;
-  }
-  form textarea::placeholder {
-    color: rgb(0, 0, 0);
-  }
-  textarea:focus::placeholder,
-  #e-mail:focus::placeholder {
-    color: rgba(0, 0, 0, 0);
-  }
-  
-  textarea::placeholder,
-  input::placeholder {
-    color: rgb(0, 0, 0);
-    padding-left: 0px;
-  }
-  form button {
-    height: 36px;
-    border-radius: 2px;
-    width: 100%;
-    max-width: 700px;
-  
-    text-shadow: none;
-    cursor: pointer;
-  
-    display: block;
-    text-align: center;
-  
-    border: 4px double rgb(98, 98, 98);
-  
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    font-weight: 600;
-  }
-  form button:hover {
-    text-decoration: underline rgb(0, 0, 0);
-  }
-  .contact-container .submitted {
-    margin: 40px;
-  
-    text-align: center;
-    /* color: white; */
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-  
-    height: 256px;
-  }
-  
-  
-  .skills-span-anima {
-    animation: span-fade 2s linear;
-  }
-  @keyframes span-fade {
-    0% {
-      opacity: 0;
-      color: rgba(228, 228, 228, 0);
-    }
-    80% {
-      opacity: 0;
-      color: rgba(228, 228, 228, 0);
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+}

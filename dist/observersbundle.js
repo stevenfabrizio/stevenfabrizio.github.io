@@ -277,7 +277,24 @@ const DoinItAll = () => {
     observer13.observe(spans[i]);
   }
 
-  console.log(spans);
+  //
+  // THIS IS FOR THE WAVE HAND
+  const wave = document.querySelectorAll('.wave-hand');
+  const observerWave = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      entry.target.classList.toggle(
+        'wave-hand-animations-class',
+        entry.isIntersecting
+      );
+
+      if (entry.isIntersecting) observerWave.unobserve(entry.target);
+    });
+  });
+  for (let i = 0; i < wave.length; i++) {
+    observerWave.observe(wave[i]);
+  }
+
+  // console.log(spans);
 };
 
 setTimeout(() => {
