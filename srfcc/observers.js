@@ -90,18 +90,6 @@ const DoinItAll = () => {
     observer1f.observe(projectsf[i]);
   }
 
-  const projectsg = document.querySelectorAll('.projR7');
-  const observer1g = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      entry.target.classList.toggle('proj-animaR7', entry.isIntersecting);
-
-      if (entry.isIntersecting) observer1g.unobserve(entry.target);
-    });
-  });
-  for (let i = 0; i < projectsg.length; i++) {
-    observer1g.observe(projectsg[i]);
-  }
-
   //
   //THIS IS FOR THE h3 ELEMENTS
   // const h3s = document.querySelectorAll('.h3-observable');

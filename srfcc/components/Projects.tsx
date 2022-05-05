@@ -11,10 +11,9 @@ import Proj4Overlay from '../images/proj4overlay.webp';
 import Proj5 from '../images/proj5.webp';
 import Proj5Overlay from '../images/proj5overlay.webp';
 import Proj6 from '../images/Proj6.webp';
-import Proj6Overlay from '../images/Proj6Overlay.gif';
+// import Proj6Overlay from '../images/Proj6Overlay.gif'
 
 import ExternalLink from '../images/externallink.webp';
-import './Projects.css';
 
 export const Projects: React.FC = () => {
   //these functions will toggle the project overlays
@@ -506,18 +505,18 @@ export const Projects: React.FC = () => {
 
           <div className="project-h3-div">
             <h3>
-              <a target="_blank" href="https://wiki-trans-test.herokuapp.com/">
+              <a
+                target="_blank"
+                href="https://wiki-trans-test.herokuapp.com/"
+              >
                 Wikipedia Translator
                 <img loading="lazy" src={ExternalLink} className="wiggles el" />
               </a>
-              <span className="technologies">
-                PostgreSQL, Express, TypeScript, Redux
-              </span>
+              <span className="technologies">PostgreSQL, Express, TypeScript, Redux</span>
             </h3>
           </div>
           <p>
-            A page where you can search a topic from Wikipedia and compare the
-            english article with a foreign one.
+            A page where you can search a topic from Wikipedia and compare the english article with a foreign one.
           </p>
         </div>
         <div onClick={() => off()}></div>

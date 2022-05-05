@@ -12,8 +12,8 @@ import Spinner from './components/Spinner';
 const App: React.FC = () => {
   return (
     <>
-      <Landing />
       <Spinner />
+      <Landing />
       <About />
       <Projects />
       <Skills />
