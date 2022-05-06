@@ -255,9 +255,9 @@ export const Projects: React.FC = () => {
           </div>
 
           <p>
-            Five easy sudoku puzzles. There is a link to how to play for new
-            players. Click the title for the solution. If you take a break and
-            come back, your progress will automatically be saved for you.
+            Five easy sudoku puzzles. Click the title for the solution. If you
+            take a break and come back, your progress will automatically be
+            saved for you.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -298,8 +298,7 @@ export const Projects: React.FC = () => {
           <p>
             This calculates how strongly smaller cryptocurrencies move with
             Bitcoin when it moves. Correlation of 1 is perfect correlation.
-            Numbers closer to 0 suggest no relationship. Hit the refresh wheel
-            if you see 'NAN'.
+            Numbers closer to 0 suggest no relationship.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -340,9 +339,9 @@ export const Projects: React.FC = () => {
           </div>
 
           <p>
-            An idea for a commerce website based off the theme of Zappos. Users
-            can register and login via a database. Their cart items are saved
-            upon return. Stripe checkout simulates a real payment.
+            An idea for a commerce website themed around Zappos. Users can
+            register and login via a database. Their cart items are saved upon
+            return. Stripe checkout simulates a real payment.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -384,7 +383,7 @@ export const Projects: React.FC = () => {
             A weather app that shows you current, hourly and daily weather
             information. The background will change based off a combination of
             weather conditions and local time of day. I added a 'My Location'
-            button too for easy searching.
+            button for better user experience.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -423,8 +422,8 @@ export const Projects: React.FC = () => {
           </div>
           <p>
             A simple app where you paste YouTube links and get MP3s back. This
-            is personally my favorite app. You can clone
-            it to your machine from the link above.
+            is personally my favorite app. You can clone it to your machine from
+            the link above.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -451,7 +450,10 @@ export const Projects: React.FC = () => {
 
           <div className="project-h3-div">
             <h3>
-              <a target="_blank" href="https://wikipedia-translator.herokuapp.com/">
+              <a
+                target="_blank"
+                href="https://wikipedia-translator.herokuapp.com/"
+              >
                 Wikipedia Translator
                 <img loading="lazy" src={ExternalLink} className="wiggles el" />
               </a>
@@ -461,8 +463,8 @@ export const Projects: React.FC = () => {
             </h3>
           </div>
           <p>
-            A website where you can read a Wikipedia topic and compare it
-            with a non english one. Select from the languages with the most wikipedia entries.
+            A website where you can compare an english Wikipedia article with a
+            non english one. The non english one is translated for you.
           </p>
         </div>
         <div onClick={() => off()}></div>

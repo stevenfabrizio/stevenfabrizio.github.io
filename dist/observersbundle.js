@@ -151,18 +151,18 @@ const DoinItAll = () => {
 
   //
   // THIS IS FOR THE OVERLAY IMAGES
-  const overlayimgs = document.querySelectorAll('.overlay-img');
-  const observer5 = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      entry.target.classList.toggle('overlay-fade-in', entry.isIntersecting);
+  // const overlayimgs = document.querySelectorAll('.overlay-img');
+  // const observer5 = new IntersectionObserver((entries) => {
+  //   entries.forEach((entry) => {
+  //     entry.target.classList.toggle('overlay-fade-in', entry.isIntersecting);
 
-      if (entry.isIntersecting) observer5.unobserve(entry.target);
-    });
-  });
+  //     if (entry.isIntersecting) observer5.unobserve(entry.target);
+  //   });
+  // });
 
-  for (let i = 0; i < overlayimgs.length; i++) {
-    observer5.observe(overlayimgs[i]);
-  }
+  // for (let i = 0; i < overlayimgs.length; i++) {
+  //   observer5.observe(overlayimgs[i]);
+  // }
 
   //
   // THIS IS FOR THE HTML5 logo

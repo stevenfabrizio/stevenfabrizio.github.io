@@ -2504,7 +2504,7 @@ const Projects = () => {
                             "Sudoku",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
                         react_1.default.createElement("span", { className: "technologies" }, "React, TypeScript, Redux"))),
-                react_1.default.createElement("p", null, "Five easy sudoku puzzles. There is a link to how to play for new players. Click the title for the solution. If you take a break and come back, your progress will automatically be saved for you.")),
+                react_1.default.createElement("p", null, "Five easy sudoku puzzles. Click the title for the solution. If you take a break and come back, your progress will automatically be saved for you.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2524,7 +2524,7 @@ const Projects = () => {
                             "Bitcoin Stats",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
                         react_1.default.createElement("span", { className: "technologies" }, "React, TypeScript"))),
-                react_1.default.createElement("p", null, "This calculates how strongly smaller cryptocurrencies move with Bitcoin when it moves. Correlation of 1 is perfect correlation. Numbers closer to 0 suggest no relationship. Hit the refresh wheel if you see 'NAN'.")),
+                react_1.default.createElement("p", null, "This calculates how strongly smaller cryptocurrencies move with Bitcoin when it moves. Correlation of 1 is perfect correlation. Numbers closer to 0 suggest no relationship.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2544,7 +2544,7 @@ const Projects = () => {
                             "E-Commerce Store",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
                         react_1.default.createElement("span", { className: "technologies" }, "React, JavaScript, MongoDB, Express, Redux"))),
-                react_1.default.createElement("p", null, "An idea for a commerce website based off the theme of Zappos. Users can register and login via a database. Their cart items are saved upon return. Stripe checkout simulates a real payment.")),
+                react_1.default.createElement("p", null, "An idea for a commerce website themed around Zappos. Users can register and login via a database. Their cart items are saved upon return. Stripe checkout simulates a real payment.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2564,7 +2564,7 @@ const Projects = () => {
                             "Weather Forecast",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
                         react_1.default.createElement("span", { className: "technologies" }, "React, TypeScript"))),
-                react_1.default.createElement("p", null, "A weather app that shows you current, hourly and daily weather information. The background will change based off a combination of weather conditions and local time of day. I added a 'My Location' button too for easy searching.")),
+                react_1.default.createElement("p", null, "A weather app that shows you current, hourly and daily weather information. The background will change based off a combination of weather conditions and local time of day. I added a 'My Location' button for better user experience.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2604,7 +2604,7 @@ const Projects = () => {
                             "Wikipedia Translator",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
                         react_1.default.createElement("span", { className: "technologies" }, "PostgreSQL, Express, TypeScript, Redux"))),
-                react_1.default.createElement("p", null, "A website where you can read a Wikipedia topic and compare it with a non english one. Select from the languages with the most wikipedia entries.")),
+                react_1.default.createElement("p", null, "A website where you can compare an english Wikipedia article with a non english one. The non english one is translated for you.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2715,8 +2715,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(294));
 const client_1 = __importDefault(__webpack_require__(745));
 const App_1 = __importDefault(__webpack_require__(957));
-__webpack_require__(279);
 __webpack_require__(934);
+__webpack_require__(279);
 const root = client_1.default.createRoot(document.getElementById('root'));
 root.render(react_1.default.createElement(react_1.default.StrictMode, null,
     react_1.default.createElement(App_1.default, null)));

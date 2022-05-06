@@ -462,7 +462,7 @@ a {
 
   max-width: 600px;
 }
-.overlay-fade-in {
+/* .overlay-fade-in {
   animation: overlay-img-anima 1s ease-out;
 }
 @keyframes overlay-img-anima {
@@ -472,7 +472,7 @@ a {
   100% {
     filter: brightness(100%);
   }
-}
+} */
 i {
   color: rgb(10, 10, 10);
 }
