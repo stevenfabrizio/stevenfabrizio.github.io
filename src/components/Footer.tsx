@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
 
   return (
     <div className="footer">
-      <span className="or"></span>
+      <span className="or">or</span>
 
       <div className="my-email">
         <span
