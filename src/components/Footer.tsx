@@ -9,6 +9,7 @@ const Footer: React.FC = () => {
   React.useEffect(() => {
     setIt(window.innerWidth)
   },[window.innerWidth])
+  
   return (
     <div className="footer">
       <span className="or">or{itt}</span>

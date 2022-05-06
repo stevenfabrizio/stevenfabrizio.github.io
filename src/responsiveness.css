@@ -7,28 +7,26 @@
     font-size: 16px;
   }
   h3 {
-    font-size: 20px !important;
-    line-height: normal;
-  }
-  h4 {
-    font-size: 16px !important;
+    font-size: 34px !important;
     line-height: normal;
   }
 
-  .landing-container * h1 {
-    font-size: 36px !important;
+  .landing-container h1 {
+    font-size: 80px !important;
   }
   .landing-container h2 {
     width: 100%;
   }
 
-  .about-me-container h3 {
-    padding-left: 0px;
+  .about-me-container {
+    min-height: 0vh;
+
+    margin-top: 6vh;
+    margin-bottom: 8vh;
   }
   .photo-container {
     display: none;
   }
-
   .about-me-container {
     padding: 20px;
     grid-template-columns: 1fr;
@@ -37,16 +35,32 @@
     grid-column: 1;
     margin-right: 0px;
   }
+  .p-container * {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .first {
+    font-size: 30px !important;
+
+    position: static;
+    color: rgb(10, 10, 10);
+  }
+  .second {
+    margin-left: -6px;
+    /* 
+    word-break: keep-all; */
+  }
 
   .proj {
     width: 50%;
+    max-height: 55vh;
     min-width: 0;
   }
   .x-btn {
     height: 26px;
     width: 26px;
     font-size: 24px;
-    border-radius: 24px;
 
     margin-bottom: 3px;
   }
@@ -59,6 +73,15 @@
   .technologies {
     font-size: 12px;
   }
+
+  .skills-container {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+
+  form * {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -66,14 +89,20 @@
   span,
   textarea,
   input,
-  button {
-    font-size: 14px !important;
-  }
+  button,
   a {
-    font-size: 14px;
+    font-size: 16px !important;
   }
   #arrow {
     display: none;
+  }
+  h3 {
+    font-size: 24px !important;
+    line-height: normal;
+  }
+
+  .second {
+    margin-left: -6px;
   }
 
   .projects-container {
@@ -101,7 +130,6 @@
     height: 20px;
     width: 20px;
     font-size: 20px;
-    border-radius: 20px;
   }
   .technologies {
     display: none;
