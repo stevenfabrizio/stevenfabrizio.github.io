@@ -1,0 +1,153 @@
+/* responsiveness */
+@media screen and (max-width: 760px) {
+  * {
+    animation-name: none !important;
+  }
+  a {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 20px !important;
+    line-height: normal;
+  }
+  h4 {
+    font-size: 16px !important;
+    line-height: normal;
+  }
+
+  .landing-container * h1 {
+    font-size: 36px !important;
+  }
+  .landing-container h2 {
+    width: 100%;
+  }
+
+  .about-me-container h3 {
+    padding-left: 0px;
+  }
+  .photo-container {
+    display: none;
+  }
+
+  .about-me-container {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+  .p-container {
+    grid-column: 1;
+    margin-right: 0px;
+  }
+
+  .proj {
+    width: 50%;
+    min-width: 0;
+  }
+  .x-btn {
+    height: 26px;
+    width: 26px;
+    font-size: 24px;
+    border-radius: 24px;
+
+    margin-bottom: 3px;
+  }
+  .el {
+    height: 22px;
+    width: 22px;
+
+    margin-bottom: -4px;
+  }
+  .technologies {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  p,
+  span,
+  textarea,
+  input,
+  button {
+    font-size: 14px !important;
+  }
+  a {
+    font-size: 14px;
+  }
+  #arrow {
+    display: none;
+  }
+
+  .projects-container {
+    clip-path: none !important;
+  }
+  .proj-h3-container {
+    clip-path: none !important;
+  }
+  .projects-container h3 {
+    width: 100%;
+
+    justify-self: start;
+
+    -webkit-clip-path: ellipse(60% 78% at 42% 78%);
+    clip-path: ellipse(62% 78% at 42% 78%);
+  }
+  .proj {
+    margin-left: 5vw !important;
+    margin-right: 5vw !important;
+    width: 90%;
+  }
+  .x-btn {
+    margin-top: 10px;
+
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  .technologies {
+    display: none;
+  }
+
+  .gmx-email {
+    font-size: 24px !important;
+  }
+  svg {
+    height: 40px;
+    width: 40px;
+  }
+  .skills-span {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  p,
+  span,
+  textarea,
+  input,
+  button {
+    font-size: 12px !important;
+  }
+
+  .h1-container h1 {
+    font-size: 26px !important;
+  }
+  .landing-container * h2 {
+    font-size: 16px;
+  }
+  .laptop-icon {
+    display: none;
+  }
+
+  h3,
+  h4 {
+    font-size: 16px !important;
+  }
+
+  svg {
+    height: 24px !important;
+    width: 24px !important;
+  }
+  .skills-span {
+    display: none;
+  }
+}

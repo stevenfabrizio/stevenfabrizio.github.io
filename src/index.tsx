@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 require('./styles.css');
+require('./responsiveness.css');
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

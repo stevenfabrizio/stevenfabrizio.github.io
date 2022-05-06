@@ -3,9 +3,15 @@ import React from 'react';
 import './Footer.css'
 
 const Footer: React.FC = () => {
+
+  const [itt, setIt] = React.useState(0)
+
+  React.useEffect(() => {
+    setIt(window.innerWidth)
+  },[window.innerWidth])
   return (
     <div className="footer">
-      <span className="or">or</span>
+      <span className="or">or{itt}</span>
 
       <div className="my-email">
         <span
