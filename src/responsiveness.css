@@ -12,7 +12,7 @@
   }
 
   .landing-container h1 {
-    font-size: 80px !important;
+    font-size: 90px !important;
   }
   .landing-container h2 {
     width: 100%;
@@ -35,22 +35,6 @@
     grid-column: 1;
     margin-right: 0px;
   }
-  .p-container * {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  .first {
-    font-size: 30px !important;
-
-    position: static;
-    color: rgb(10, 10, 10);
-  }
-  .second {
-    margin-left: -6px;
-    /* 
-    word-break: keep-all; */
-  }
 
   .proj {
     width: 50%;
@@ -71,7 +55,7 @@
     margin-bottom: -4px;
   }
   .technologies {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .skills-container {
@@ -91,7 +75,7 @@
   input,
   button,
   a {
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   #arrow {
     display: none;
@@ -101,8 +85,27 @@
     line-height: normal;
   }
 
+  .landing-container h1 {
+    font-size: 80px !important;
+  }
+
+  /* .second {
+    margin-left: -6px;
+  } */
+
+  .p-container * {
+    font-weight: 500;
+  }
+  .first {
+    font-size: 30px !important;
+
+    position: static;
+    color: rgb(10, 10, 10);
+  }
   .second {
     margin-left: -6px;
+    /* 
+    word-break: keep-all; */
   }
 
   .projects-container {
@@ -148,29 +151,29 @@
 }
 
 @media screen and (max-width: 450px) {
-  p,
+  /* p,
   span,
   textarea,
   input,
   button {
     font-size: 12px !important;
+  } */
+
+  .landing-container h1 {
+    font-size: 60px !important;
+  }
+  .landing-container h2 {
+    font-size: 20px;
   }
 
-  .h1-container h1 {
-    font-size: 26px !important;
-  }
-  .landing-container * h2 {
-    font-size: 16px;
-  }
-  .laptop-icon {
-    display: none;
-  }
-
-  h3,
+  /* h3,
   h4 {
-    font-size: 16px !important;
-  }
+    font-size: 20px !important;
+  } */
 
+  .overlay-img {
+    max-height: fit-content;
+  }
   svg {
     height: 24px !important;
     width: 24px !important;

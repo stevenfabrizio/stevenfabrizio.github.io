@@ -2282,14 +2282,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(294));
 __webpack_require__(779);
 const Footer = () => {
-    const [itt, setIt] = react_1.default.useState(0);
-    react_1.default.useEffect(() => {
-        setIt(window.innerWidth);
-    }, [window.innerWidth]);
     return (react_1.default.createElement("div", { className: "footer" },
-        react_1.default.createElement("span", { className: "or" },
-            "or",
-            itt),
+        react_1.default.createElement("span", { className: "or" }),
         react_1.default.createElement("div", { className: "my-email" },
             react_1.default.createElement("span", { className: "gmx-email", title: "Click to copy to clipboard", onClick: () => {
                     navigator.clipboard.writeText('shfabrizio@gmx.com');
