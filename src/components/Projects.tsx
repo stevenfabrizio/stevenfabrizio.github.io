@@ -190,7 +190,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F1">
           <div className="x-div">
-            <button id='x1' className="x-btn" onClick={() => off()}>
+            <button id="x1" className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -231,7 +231,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F2">
           <div className="x-div">
-            <button id='x2' className="x-btn" onClick={() => off()}>
+            <button id="x2" className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -272,7 +272,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F3">
           <div className="x-div">
-            <button id='x3' className="x-btn" onClick={() => off()}>
+            <button id="x3" className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -314,7 +314,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F4">
           <div className="x-div">
-            <button id='x4' className="x-btn" onClick={() => off()}>
+            <button id="x4" className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -357,7 +357,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F5">
           <div className="x-div">
-            <button id='x5' className="x-btn" onClick={() => off()}>
+            <button id="x5" className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -380,11 +380,10 @@ export const Projects: React.FC = () => {
           </div>
 
           <p>
-            A weather app that shows you relevant current, hourly and daily
-            weather information for a location. Fetches Washington D.C. on load
-            to show the user something. The background will change based off a
-            combination of weather conditions and local time of day. I added a
-            'My Location' button for everyone's convenience.
+            A weather app that shows you current, hourly and daily weather
+            information. The background will change based off a combination of
+            weather conditions and local time of day. I added a 'My Location'
+            button too for easy searching.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -400,7 +399,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F6">
           <div className="x-div">
-            <button id='x6' className="x-btn" onClick={() => off()}>
+            <button id="x6" className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
@@ -423,7 +422,8 @@ export const Projects: React.FC = () => {
           </div>
           <p>
             A simple app where you paste YouTube links and get MP3s back. This
-            is personally my favorite app that I use all the time. You can clone it to your machine from the link above.
+            is personally my favorite app. You can clone
+            it to your machine from the link above.
           </p>
         </div>
         <div onClick={() => off()}></div>
@@ -439,7 +439,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div id="F7">
           <div className="x-div">
-            <button id='x7' className="x-btn" onClick={() => off()}>
+            <button id="x7" className="x-btn" onClick={() => off()}>
               X
             </button>
           </div>
