@@ -12,6 +12,7 @@ import Proj5 from '../images/proj5.webp';
 import Proj5Overlay from '../images/proj5overlay.webp';
 import Proj6 from '../images/Proj6.webp';
 import Proj6Overlay from '../images/Proj6Overlay.gif';
+import Proj7 from '../images/Proj7.webp';
 
 import ExternalLink from '../images/externallink.webp';
 import './Projects.css';
@@ -177,7 +178,7 @@ export const Projects: React.FC = () => {
         <div className="projR7 proj" id="p7" onClick={onProj7}>
           <div
             className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj6})` }}
+            style={{ backgroundImage: `url(${Proj7})` }}
           ></div>
           <h4>Wikipedia Translator</h4>
         </div>
@@ -450,7 +451,7 @@ export const Projects: React.FC = () => {
 
           <div className="project-h3-div">
             <h3>
-              <a target="_blank" href="https://wiki-trans-test.herokuapp.com/">
+              <a target="_blank" href="https://wikipedia-translator.herokuapp.com/">
                 Wikipedia Translator
                 <img loading="lazy" src={ExternalLink} className="wiggles el" />
               </a>
@@ -460,8 +461,8 @@ export const Projects: React.FC = () => {
             </h3>
           </div>
           <p>
-            A website where you can search for a Wikipedia topic and compare it
-            with the non english translated topic.
+            A website where you can read a Wikipedia topic and compare it
+            with a non english one. Select from the languages with the most wikipedia entries.
           </p>
         </div>
         <div onClick={() => off()}></div>

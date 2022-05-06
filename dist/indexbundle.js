@@ -1399,6 +1399,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ 772:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Proj7.webp");
+
+/***/ }),
+
 /***/ 434:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2339,6 +2351,7 @@ const proj4overlay_webp_1 = __importDefault(__webpack_require__(497));
 const proj5_webp_1 = __importDefault(__webpack_require__(107));
 const proj5overlay_webp_1 = __importDefault(__webpack_require__(828));
 const Proj6_webp_1 = __importDefault(__webpack_require__(858));
+const Proj7_webp_1 = __importDefault(__webpack_require__(772));
 const externallink_webp_1 = __importDefault(__webpack_require__(434));
 __webpack_require__(167);
 const Projects = () => {
@@ -2442,7 +2455,7 @@ const Projects = () => {
                 react_1.default.createElement("div", { className: "proj-hover-img", style: { backgroundImage: `url(${Proj6_webp_1.default})` } }),
                 react_1.default.createElement("h4", null, "YouTube to MP3 Converter")),
             react_1.default.createElement("div", { className: "projR7 proj", id: "p7", onClick: onProj7 },
-                react_1.default.createElement("div", { className: "proj-hover-img", style: { backgroundImage: `url(${Proj6_webp_1.default})` } }),
+                react_1.default.createElement("div", { className: "proj-hover-img", style: { backgroundImage: `url(${Proj7_webp_1.default})` } }),
                 react_1.default.createElement("h4", null, "Wikipedia Translator"))),
         react_1.default.createElement("div", { id: "floater1", ref: float1Ref, className: "overlay" },
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2577,11 +2590,11 @@ const Projects = () => {
                 react_1.default.createElement("div", { className: "img-container7 overlay-img", style: { backgroundImage: `url(../../dist/proj6overlay.gif)` } }),
                 react_1.default.createElement("div", { className: "project-h3-div" },
                     react_1.default.createElement("h3", null,
-                        react_1.default.createElement("a", { target: "_blank", href: "https://wiki-trans-test.herokuapp.com/" },
+                        react_1.default.createElement("a", { target: "_blank", href: "https://wikipedia-translator.herokuapp.com/" },
                             "Wikipedia Translator",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
                         react_1.default.createElement("span", { className: "technologies" }, "PostgreSQL, Express, TypeScript, Redux"))),
-                react_1.default.createElement("p", null, "A website where you can search for a Wikipedia topic and compare it with the non english translated topic.")),
+                react_1.default.createElement("p", null, "A website where you can read a Wikipedia topic and compare it with a non english one. Select from the languages with the most wikipedia entries.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),

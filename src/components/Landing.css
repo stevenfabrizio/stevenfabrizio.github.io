@@ -25,7 +25,7 @@
   margin-left: 6vw;
 
   transform: translateY(0vh);
-  animation: steven-anima .95s ease-out normal;
+  animation: steven-anima .95s ease-in-out normal;
   overflow-y:visible;
 }
 @keyframes steven-anima {
@@ -49,7 +49,7 @@
   margin-left: 12vw;
 
   transform: translateY(0vh);
-  animation: fabrizio-anima 1s ease-out;
+  animation: fabrizio-anima 1s ease-in-out;
   overflow-y: visible;
 }
 @keyframes fabrizio-anima {
