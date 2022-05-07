@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 
-React.lazy(() => import('./images/SmallerMP3.png'));
-React.lazy(() => import('./images/SmallerBOOT.png'));
-React.lazy(() => import('./images/SmallerBTC.png'));
-React.lazy(() => import('./images/SmallerSUD.png'));
-React.lazy(() => import('./images/SmallerTIKI.jpg'));
-React.lazy(() => import('./images/SmallerWEAT.png'));
-React.lazy(() => import('./images/SmallerWIKI.png'));
+React.lazy(() => import('./images/smallerMP3.png'));
+React.lazy(() => import('./images/smallerBOOT.png'));
+React.lazy(() => import('./images/smallerBTC.png'));
+React.lazy(() => import('./images/smallerSUD.png'));
+React.lazy(() => import('./images/smallerTIKI.jpg'));
+React.lazy(() => import('./images/smallerWEAT.png'));
+React.lazy(() => import('./images/smallerWIKI.png'));
 require('./responsiveness.css');
 
 require('./styles.css');
