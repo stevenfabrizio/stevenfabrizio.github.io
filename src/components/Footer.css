@@ -1,6 +1,5 @@
 /* FOOTER */
 .footer {
-  background-color: rgb(10, 10, 10);
   background-color: white;
   width: 100%;
 
@@ -24,20 +23,21 @@
   padding-bottom: 16px;
 }
 .my-email {
-  /* background-color: rgb(98, 98, 98); */
   background-color: white;
   grid-row: 2;
   grid-column: 1;
 
   display: grid;
+  justify-content: center;
 
   padding-bottom: 30px;
 }
 .my-email .gmx-email {
   color: rgb(10, 10, 10);
-  text-align: center;
+
   font-size: 28px;
   letter-spacing: -1px;
+  width: min-content;
 
   cursor: pointer;
   text-decoration: underline rgb(10, 10, 10);

@@ -11,8 +11,10 @@ import Proj4Overlay from '../images/proj4overlay.webp';
 import Proj5 from '../images/proj5.webp';
 import Proj5Overlay from '../images/proj5overlay.webp';
 import Proj6 from '../images/Proj6.webp';
-import Proj6Overlay from '../images/Proj6Overlay.gif';
+// import Proj6Overlay from '../images/Proj6Overlay.gif';
 import Proj7 from '../images/Proj7.webp';
+
+// import SmallerMP3 from '../images/SmallerMP3.png';
 
 import ExternalLink from '../images/externallink.webp';
 import './Projects.css';

@@ -241,8 +241,8 @@
 
   font-weight: 600;
   letter-spacing: 1px;
-  line-height: 24px;
-  font-size: 18px;
+  line-height: 1.2;
+  font-size: 24px;
 
   padding-top: 4px;
   padding-bottom: 4px;
@@ -347,6 +347,7 @@
   border-radius: 2px;
 
   margin-top: 10px;
+  margin-bottom: 9px;
 
   height: 36px;
   width: 36px;
@@ -451,7 +452,7 @@ a {
 .img-container5,
 .img-container6,
 .img-container7 {
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -460,7 +461,8 @@ a {
   align-self: center;
   justify-self: center;
 
-  max-width: 600px;
+  width: 100%;
+  /* max-width: 600px; */
 }
 /* .overlay-fade-in {
   animation: overlay-img-anima 1s ease-out;
@@ -488,7 +490,7 @@ i {
 
   align-self: center;
   justify-self: center;
-  filter: invert(7%);
+  filter: invert(1%);
 }
 .wiggles {
   animation: wiggle 1.8s linear 1s infinite;

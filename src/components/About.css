@@ -101,9 +101,9 @@
   margin-left: 4px;
 
   transform: rotate(0deg);
-  transform-origin: 70% 70%; 
+  transform-origin: 70% 70%;
 }
-.wave-hand-animations-class{
+.wave-hand-animations-class {
   animation: wave 1.8s linear 0.7s;
 }
 @keyframes wave {
@@ -111,10 +111,10 @@
     transform: rotate(0deg);
   }
   10% {
-    transform: rotate(14deg);
+    transform: rotate(16deg);
   }
   20% {
-    transform: rotate(-8deg);
+    transform: rotate(-9deg);
   }
   30% {
     transform: rotate(14deg);
@@ -123,11 +123,11 @@
     transform: rotate(-4deg);
   }
   50% {
-    transform: rotate(10deg);
-  }
-  60% {
     transform: rotate(0deg);
   }
+  /* 60% {
+    transform: rotate(0deg);
+  } */
   100% {
     transform: rotate(0deg);
   }

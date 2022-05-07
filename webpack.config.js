@@ -25,7 +25,7 @@ module.exports = {
   output: {
     filename: '[name]bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    // clean: true
+    clean: true,
   },
   module: {
     rules: [
@@ -40,11 +40,16 @@ module.exports = {
         // use: ["style-loader", "css-loader"]
       },
       {
-        test: /\.(webp|gif)$/,
+        // test: /\.(webp|gif)$/,
+        test: /\.(webp)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
         },
+      },
+      {
+        test: /\.(png|jpg)$/,
+        type: 'asset/resource',
       },
     ],
   },
