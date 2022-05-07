@@ -1,9 +1,8 @@
 import React from 'react';
 
-import "./Spinner.css"
+import './Spinner.css';
 
 const Spinner: React.FC = () => {
-    
   return (
     <div id="spinner-container">
       <div className="lds-spinner">

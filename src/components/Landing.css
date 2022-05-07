@@ -25,12 +25,11 @@
   margin-left: 6vw;
 
   transform: translateY(0vh);
-  animation: steven-anima 0.95s ease-in-out normal;
-  overflow-y: visible;
+  animation: steven-anima 0.95s ease-in-out normal
 }
 @keyframes steven-anima {
   0% {
-    transform: translateY(11vh);
+    transform: translateY(14vh);
   }
   /* 65%{
     transform: translateY(0vh)
