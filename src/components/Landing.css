@@ -25,14 +25,17 @@
   margin-left: 6vw;
 
   transform: translateY(0vh);
-  animation: steven-anima .95s ease-in-out normal;
-  overflow-y:visible;
+  animation: steven-anima 0.95s ease-in-out normal;
+  overflow-y: visible;
 }
 @keyframes steven-anima {
   0% {
     transform: translateY(11vh);
   }
-  70% {
+  /* 65%{
+    transform: translateY(0vh)
+  } */
+  57% {
     transform: translateY(-1vh);
   }
   100% {
@@ -57,9 +60,9 @@
     transform: translateY(11vh);
   }
   5% {
-    transform: translateY(9vh);
+    transform: translateY(11vh);
   }
-  72% {
+  63% {
     transform: translateY(-1vh);
   }
   100% {
@@ -148,7 +151,7 @@
   position: absolute;
   /* top: 0%; */
   bottom: 5%;
-  
+
   justify-self: center;
   align-self: center;
 

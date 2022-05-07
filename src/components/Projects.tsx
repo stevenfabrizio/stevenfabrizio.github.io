@@ -1,23 +1,23 @@
 import React from 'react';
 
-import Proj1 from '../images/proj1.webp';
-import Proj1Overlay from '../images/proj1overlay.webp';
-import Proj2 from '../images/proj2.webp';
-import Proj2Overlay from '../images/proj2overlay.webp';
-import Proj3 from '../images/proj3.webp';
-import Proj3Overlay from '../images/proj3overlay.webp';
-import Proj4 from '../images/proj4.webp';
-import Proj4Overlay from '../images/proj4overlay.webp';
-import Proj5 from '../images/proj5.webp';
-import Proj5Overlay from '../images/proj5overlay.webp';
-import Proj6 from '../images/Proj6.webp';
-// import Proj6Overlay from '../images/Proj6Overlay.gif';
-import Proj7 from '../images/Proj7.webp';
-
-// import SmallerMP3 from '../images/SmallerMP3.png';
+import '../images/proj1.webp';
+import '../images/proj2.webp';
+import '../images/proj3.webp';
+import '../images/proj4.webp';
+import '../images/proj5.webp';
+import '../images/proj6.webp';
+import '../images/proj7.webp';
 
 import ExternalLink from '../images/externallink.webp';
-import './Projects.css';
+
+React.lazy(() => import('../images/proj1overlay.webp'));
+React.lazy(() => import('../images/proj2overlay.webp'));
+React.lazy(() => import('../images/proj3overlay.webp'));
+React.lazy(() => import('../images/proj4overlay.webp'));
+React.lazy(() => import('../images/proj5overlay.webp'));
+React.lazy(() => import('../images/proj6overlay.png'));
+React.lazy(() => import('../images/proj7overlay.png'));
+require('./Projects.css');
 
 export const Projects: React.FC = () => {
   let spinnerContainer: HTMLDivElement = document.getElementById(
@@ -130,58 +130,37 @@ export const Projects: React.FC = () => {
         </div>
 
         <div className="projR1 proj" id="p1" onClick={onProj1}>
-          <div
-            className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj1})` }}
-          ></div>
+          <div className="proj-hover-img"></div>
           <h4>Twisted Tiki Restaurant</h4>
         </div>
 
         <div className="projR2 proj" id="p2" onClick={onProj2}>
-          <div
-            className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj2})` }}
-          ></div>
+          <div className="proj-hover-img"></div>
           <h4>Sudoku</h4>
         </div>
 
         <div className="projR3 proj" id="p3" onClick={onProj3}>
-          <div
-            className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj3})` }}
-          ></div>
+          <div className="proj-hover-img"></div>
           <h4>Bitcoin Stats</h4>
         </div>
 
         <div className="projR4 proj" id="p4" onClick={onProj4}>
-          <div
-            className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj5})` }}
-          ></div>
+          <div className="proj-hover-img"></div>
           <h4>E-Commerce Store</h4>
         </div>
 
         <div className="projR5 proj" id="p5" onClick={onProj5}>
-          <div
-            className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj4})` }}
-          ></div>
+          <div className="proj-hover-img"></div>
           <h4>Weather Forecast</h4>
         </div>
 
         <div className="projR6 proj" id="p6" onClick={onProj6}>
-          <div
-            className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj6})` }}
-          ></div>
+          <div className="proj-hover-img"></div>
           <h4>YouTube to MP3 Converter</h4>
         </div>
 
         <div className="projR7 proj" id="p7" onClick={onProj7}>
-          <div
-            className="proj-hover-img"
-            style={{ backgroundImage: `url(${Proj7})` }}
-          ></div>
+          <div className="proj-hover-img"></div>
           <h4>Wikipedia Translator</h4>
         </div>
       </div>
@@ -197,10 +176,7 @@ export const Projects: React.FC = () => {
               X
             </button>
           </div>
-          <div
-            className="img-container1 overlay-img"
-            style={{ backgroundImage: `url(${Proj1Overlay})` }}
-          ></div>
+          <div className="img-container1 overlay-img"></div>
 
           <div className="project-h3-div">
             <h3>
@@ -238,10 +214,7 @@ export const Projects: React.FC = () => {
               X
             </button>
           </div>
-          <div
-            className="img-container2 overlay-img"
-            style={{ backgroundImage: `url(${Proj2Overlay})` }}
-          ></div>
+          <div className="img-container2 overlay-img"></div>
 
           <div className="project-h3-div">
             <h3>
@@ -279,10 +252,7 @@ export const Projects: React.FC = () => {
               X
             </button>
           </div>
-          <div
-            className="img-container3 overlay-img"
-            style={{ backgroundImage: `url(${Proj3Overlay})` }}
-          ></div>
+          <div className="img-container3 overlay-img"></div>
 
           <div className="project-h3-div">
             <h3>
@@ -320,10 +290,7 @@ export const Projects: React.FC = () => {
               X
             </button>
           </div>
-          <div
-            className="img-container4 overlay-img"
-            style={{ backgroundImage: `url(${Proj5Overlay})` }}
-          ></div>
+          <div className="img-container4 overlay-img"></div>
 
           <div className="project-h3-div">
             <h3>
@@ -363,10 +330,7 @@ export const Projects: React.FC = () => {
               X
             </button>
           </div>
-          <div
-            className="img-container5 overlay-img"
-            style={{ backgroundImage: `url(${Proj4Overlay})` }}
-          ></div>
+          <div className="img-container5 overlay-img"></div>
 
           <div className="project-h3-div">
             <h3>
@@ -405,10 +369,7 @@ export const Projects: React.FC = () => {
               X
             </button>
           </div>
-          <div
-            className="img-container6 overlay-img"
-            style={{ backgroundImage: `url(../../dist/proj6overlay.gif)` }}
-          ></div>
+          <div className="img-container6 overlay-img"></div>
 
           <div className="project-h3-div">
             <h3>
@@ -445,10 +406,7 @@ export const Projects: React.FC = () => {
               X
             </button>
           </div>
-          <div
-            className="img-container7 overlay-img"
-            style={{ backgroundImage: `url(../../dist/proj6overlay.gif)` }}
-          ></div>
+          <div className="img-container7 overlay-img"></div>
 
           <div className="project-h3-div">
             <h3>

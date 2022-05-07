@@ -23,6 +23,27 @@
 
   display: grid;
 }
+.projR1 .proj-hover-img {
+  background-image: url('../images/proj1.webp');
+}
+.projR2 .proj-hover-img {
+  background-image: url('../images/proj2.webp');
+}
+.projR3 .proj-hover-img {
+  background-image: url('../images/proj3.webp');
+}
+.projR4 .proj-hover-img {
+  background-image: url('../images/proj4.webp');
+}
+.projR5 .proj-hover-img {
+  background-image: url('../images/proj5.webp');
+}
+.projR6 .proj-hover-img {
+  background-image: url('../images/proj6.webp');
+}
+.projR7 .proj-hover-img {
+  background-image: url('../images/proj7.webp');
+}
 
 /* .proj-h3-anima {
     animation: h3-animation 1s linear;
@@ -239,7 +260,7 @@
   cursor: pointer;
   width: 100%;
 
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.2;
   font-size: 24px;
@@ -414,7 +435,7 @@ a {
   text-decoration: none;
 
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 #F1 p,
 #F2 p,
@@ -464,6 +485,27 @@ a {
   width: 100%;
   /* max-width: 600px; */
 }
+.img-container1 {
+  background-image: url('../images/proj1overlay.webp');
+}
+.img-container2 {
+  background-image: url('../images/proj2overlay.webp');
+}
+.img-container3 {
+  background-image: url('../images/proj3overlay.webp');
+}
+.img-container4 {
+  background-image: url('../images/proj4overlay.webp');
+}
+.img-container5 {
+  background-image: url('../images/proj5overlay.webp');
+}
+.img-container6 {
+  background-image: url('../images/proj6overlay.png');
+}
+.img-container7 {
+  background-image: url('../images/proj7overlay.png');
+}
 /* .overlay-fade-in {
   animation: overlay-img-anima 1s ease-out;
 }
@@ -477,6 +519,9 @@ a {
 } */
 i {
   color: rgb(10, 10, 10);
+}
+a:hover{
+  text-decoration: underline;
 }
 .el {
   z-index: 10;
