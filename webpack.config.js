@@ -39,13 +39,6 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
         // use: ["style-loader", "css-loader"]
       },
-      // {
-      //   test: /\.(webp)$/,
-      //   loader: 'file-loader',
-      //   options: {
-      //     name: '[name].[ext]',
-      //   },
-      // },
       {
         test: /\.(png|jpg|webp)$/,
         type: 'asset/resource',

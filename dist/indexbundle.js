@@ -1949,6 +1949,29 @@ if (true) {
 
 "use strict";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -1959,8 +1982,8 @@ const Spinner_1 = __importDefault(__webpack_require__(8052));
 const About_1 = __importDefault(__webpack_require__(8685));
 const Projects_1 = __importDefault(__webpack_require__(2757));
 const Skills_1 = __importDefault(__webpack_require__(5368));
-const Contact_1 = __importDefault(__webpack_require__(448));
-const Footer_1 = __importDefault(__webpack_require__(8023));
+const Contact = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(448))));
+const Footer = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(8023))));
 const App = () => {
     return (react_1.default.createElement(react_1.default.Fragment, null,
         react_1.default.createElement(Landing_1.default, null),
@@ -1968,8 +1991,9 @@ const App = () => {
         react_1.default.createElement(About_1.default, null),
         react_1.default.createElement(Projects_1.default, null),
         react_1.default.createElement(Skills_1.default, null),
-        react_1.default.createElement(Contact_1.default, null),
-        react_1.default.createElement(Footer_1.default, null)));
+        react_1.default.createElement(react_1.default.Suspense, { fallback: react_1.default.createElement(react_1.default.Fragment, null) },
+            react_1.default.createElement(Contact, null),
+            react_1.default.createElement(Footer, null))));
 };
 exports["default"] = App;
 
@@ -2460,7 +2484,7 @@ const Projects = () => {
                         react_1.default.createElement("a", { target: "_blank", href: "https://wikipedia-translator.herokuapp.com/" },
                             "Wikipedia Translator",
                             react_1.default.createElement("img", { loading: "lazy", src: externallink_webp_1.default, className: "wiggles el" })),
-                        react_1.default.createElement("span", { className: "technologies" }, "PostgreSQL, Express, TypeScript, Redux"))),
+                        react_1.default.createElement("span", { className: "technologies" }, "PostgreSQL, Express, TypeScript, React, Redux"))),
                 react_1.default.createElement("p", null, "A website where you can compare an english Wikipedia article with a non english one. The non english one is translated for you.")),
             react_1.default.createElement("div", { onClick: () => off() }),
             react_1.default.createElement("div", { onClick: () => off() }),
@@ -2595,13 +2619,13 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
 const client_1 = __importDefault(__webpack_require__(745));
 const App_1 = __importDefault(__webpack_require__(8957));
-react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(937))));
+react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(5937))));
 react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(664))));
-react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(159))));
-react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(991))));
-react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(684))));
-react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(244))));
-react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(424))));
+react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(9159))));
+react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(2991))));
+react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(7684))));
+react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(4244))));
+react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(3424))));
 __webpack_require__(3934);
 __webpack_require__(7279);
 const root = client_1.default.createRoot(document.getElementById('root'));
@@ -2747,7 +2771,7 @@ module.exports = __webpack_require__.p + "118dcd00d122b5ef92bd.png";
 
 /***/ }),
 
-/***/ 159:
+/***/ 9159:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2755,7 +2779,7 @@ module.exports = __webpack_require__.p + "4cae856b5f02da5d166e.png";
 
 /***/ }),
 
-/***/ 937:
+/***/ 5937:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2763,7 +2787,7 @@ module.exports = __webpack_require__.p + "4664d06fe55723816bd7.png";
 
 /***/ }),
 
-/***/ 991:
+/***/ 2991:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2771,7 +2795,7 @@ module.exports = __webpack_require__.p + "82c53ae6e5d979cf3adc.png";
 
 /***/ }),
 
-/***/ 684:
+/***/ 7684:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2779,7 +2803,7 @@ module.exports = __webpack_require__.p + "a3536e82060489515b98.jpg";
 
 /***/ }),
 
-/***/ 244:
+/***/ 4244:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2787,7 +2811,7 @@ module.exports = __webpack_require__.p + "466d163417493623c0ba.png";
 
 /***/ }),
 
-/***/ 424:
+/***/ 3424:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";

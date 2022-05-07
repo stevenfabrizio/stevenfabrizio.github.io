@@ -33,10 +33,10 @@
   background-image: url('../images/proj3.webp');
 }
 .projR4 .proj-hover-img {
-  background-image: url('../images/proj4.webp');
+  background-image: url('../images/proj5.webp');
 }
 .projR5 .proj-hover-img {
-  background-image: url('../images/proj5.webp');
+  background-image: url('../images/proj4.webp');
 }
 .projR6 .proj-hover-img {
   background-image: url('../images/proj6.webp');
@@ -45,33 +45,7 @@
   background-image: url('../images/proj7.webp');
 }
 
-/* .proj-h3-anima {
-    animation: h3-animation 1s linear;
-  }
-  @keyframes h3-animation {
-    0% {
-      color: rgba(255, 255, 255, 0);
-    }
-    100% {
-      color: white;
-    }
-  } */
 .proj-h3 {
-  /* background-size: 58px 58px;
-      background-position: 0px 2px, 4px 35px, 29px 31px, 33px 6px, 0px 36px, 4px 2px,
-        29px 6px, 33px 30px;
-      background-image: linear-gradient(
-          335deg,
-          rgb(10,10,10) 23px,
-          transparent 23px
-        ),
-        linear-gradient(155deg, rgb(10,10,10) 23px, transparent 23px),
-        linear-gradient(335deg, rgb(10,10,10) 23px, transparent 23px),
-        linear-gradient(155deg, rgb(10,10,10) 23px, transparent 23px),
-        linear-gradient(335deg, rgb(10,10,10) 10px, transparent 10px),
-        linear-gradient(155deg, rgb(10,10,10) 10px, transparent 10px),
-        linear-gradient(335deg, rgb(10,10,10) 10px, transparent 10px),
-        linear-gradient(155deg, rgb(10,10,10) 10px, transparent 10px); */
   width: 60vw;
   text-align: center;
 
@@ -80,9 +54,6 @@
   justify-self: start;
 
   color: rgb(10, 10, 10);
-
-  /* -webkit-clip-path: ellipse(60% 78% at 42% 78%);
-      clip-path: ellipse(62% 78% at 42% 78%); */
 }
 .proj {
   transform: translate3d(0%, 0%, 0px);
@@ -255,8 +226,6 @@
 }
 .proj h4 {
   color: rgb(10, 10, 10);
-  /* background-color: rgb(250, 250, 253); */
-
   cursor: pointer;
   width: 100%;
 
@@ -495,10 +464,10 @@ a {
   background-image: url('../images/proj3overlay.webp');
 }
 .img-container4 {
-  background-image: url('../images/proj4overlay.webp');
+  background-image: url('../images/proj5overlay.webp');
 }
 .img-container5 {
-  background-image: url('../images/proj5overlay.webp');
+  background-image: url('../images/proj4overlay.webp');
 }
 .img-container6 {
   background-image: url('../images/proj6overlay.png');
@@ -520,7 +489,7 @@ a {
 i {
   color: rgb(10, 10, 10);
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 .el {

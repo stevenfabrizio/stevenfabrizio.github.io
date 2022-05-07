@@ -10,8 +10,8 @@ React.lazy(() => import('./images/smallerSUD.png'));
 React.lazy(() => import('./images/smallerTIKI.jpg'));
 React.lazy(() => import('./images/smallerWEAT.png'));
 React.lazy(() => import('./images/smallerWIKI.png'));
-require('./responsiveness.css');
 
+require('./responsiveness.css');
 require('./styles.css');
 
 const root = ReactDOM.createRoot(

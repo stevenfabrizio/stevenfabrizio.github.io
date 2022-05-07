@@ -418,7 +418,7 @@ export const Projects: React.FC = () => {
                 <img loading="lazy" src={ExternalLink} className="wiggles el" />
               </a>
               <span className="technologies">
-                PostgreSQL, Express, TypeScript, Redux
+                PostgreSQL, Express, TypeScript, React, Redux
               </span>
             </h3>
           </div>
