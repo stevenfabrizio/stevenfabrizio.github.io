@@ -58,8 +58,31 @@
   .technologies {
     font-size: 14px;
   }
+
   .img-container1 {
+    background-image: url('./images/smallerTIKI.jpg') !important;
+  }
+  .img-container2 {
+    background-image: url('./images/smallerSUD.png') !important;
+  }
+  .img-container3 {
+    background-image: url('./images/smallerBTC.png') !important;
+  }
+  .img-container4 {
+    background-image: url('./images/smallerBOOT.png') !important;
+  }
+  .img-container5 {
+    background-image: url('./images/smallerWEAT.png') !important;
+  }
+  .img-container6 {
     background-image: url('./images/smallerMP3.png') !important;
+  }
+  .img-container7 {
+    background-image: url('./images/smallerWIKI.png') !important;
+  }
+
+  .overlay-img{
+    background-size: cover;
   }
 
   .skills-container {

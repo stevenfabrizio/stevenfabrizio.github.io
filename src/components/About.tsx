@@ -50,10 +50,10 @@ const AboutMe: React.FC = () => {
           <br />
           <br />
           <span className="first">M </span>
-          <span className="second">y</span> passion for programming began when I
-          was a kid. I love web development because I am a math and logic
-          oriented person with a creative spirit. Beautiful websites and web
-          designs inspire me. I want to create them with a strong team that is
+          <span className="second">y</span> passion for programming began as a
+          kid. I love web development because I am a math and logic oriented
+          person with a creative spirit. Beautiful websites and web designs
+          inspire me. I want to create them with a strong team that is
           passionate like me.
           <br />
           <br />

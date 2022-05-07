@@ -16,11 +16,11 @@ module.exports = {
     observers: './src/observers.js',
   },
 
-  mode: 'production',
-  devtool: 'source-map',
+  // mode: 'production',
+  // devtool: 'source-map',
 
-  // mode: "development",
-  // devtool: "inline-source-map",
+  mode: "development",
+  devtool: "inline-source-map",
 
   output: {
     filename: '[name]bundle.js',
@@ -39,16 +39,15 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
         // use: ["style-loader", "css-loader"]
       },
+      // {
+      //   test: /\.(webp)$/,
+      //   loader: 'file-loader',
+      //   options: {
+      //     name: '[name].[ext]',
+      //   },
+      // },
       {
-        // test: /\.(webp|gif)$/,
-        test: /\.(webp)$/,
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]',
-        },
-      },
-      {
-        test: /\.(png|jpg)$/,
+        test: /\.(png|jpg|webp)$/,
         type: 'asset/resource',
       },
     ],
