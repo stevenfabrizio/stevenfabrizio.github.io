@@ -1,13 +1,13 @@
 import React from 'react';
 
-import './Skills.css'
+import './Skills.css';
 
 const Skills: React.FC = () => {
   return (
     <div className="skills-container">
       <div className="first-skills-div"></div>
 
-      <h3 className="h3-observable">Skills</h3>
+      <h3 className="h3-observable">Technologies</h3>
 
       <div className="a-skill">
         <svg className="html5" viewBox="0 0 128 128">

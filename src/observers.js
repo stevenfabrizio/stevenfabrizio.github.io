@@ -4,7 +4,7 @@
 //close overlays with escape key
 document.body.addEventListener('keyup', (event) => {
   if (event.key === 'Escape') {
-    document.getElementById('floater1').style.display = 'none';
+    // document.getElementById('floater1').style.display = 'none';
     document.getElementById('floater2').style.display = 'none';
     document.getElementById('floater3').style.display = 'none';
     document.getElementById('floater4').style.display = 'none';
@@ -18,17 +18,17 @@ document.body.addEventListener('keyup', (event) => {
 const DoinItAll = () => {
   //
   //all projects sliding animations
-  const projects = document.querySelectorAll('.projR1');
-  const observer1 = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      entry.target.classList.toggle('proj-animaR1', entry.isIntersecting);
+  // const projects = document.querySelectorAll('.projR1');
+  // const observer1 = new IntersectionObserver((entries) => {
+  //   entries.forEach((entry) => {
+  //     entry.target.classList.toggle('proj-animaR1', entry.isIntersecting);
 
-      if (entry.isIntersecting) observer1.unobserve(entry.target);
-    });
-  });
-  for (let i = 0; i < projects.length; i++) {
-    observer1.observe(projects[i]);
-  }
+  //     if (entry.isIntersecting) observer1.unobserve(entry.target);
+  //   });
+  // });
+  // for (let i = 0; i < projects.length; i++) {
+  //   observer1.observe(projects[i]);
+  // }
 
   const projectsb = document.querySelectorAll('.projR2');
   const observer1b = new IntersectionObserver((entries) => {

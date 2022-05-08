@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../images/proj1.webp';
+// import '../images/proj1.webp';
 import '../images/proj2.webp';
 import '../images/proj3.webp';
 import '../images/proj4.webp';
@@ -10,7 +10,7 @@ import '../images/proj7.webp';
 
 import ExternalLink from '../images/externallink.webp';
 
-React.lazy(() => import('../images/proj1overlay.webp'));
+// React.lazy(() => import('../images/proj1overlay.webp'));
 React.lazy(() => import('../images/proj2overlay.webp'));
 React.lazy(() => import('../images/proj3overlay.webp'));
 React.lazy(() => import('../images/proj4overlay.webp'));
@@ -24,7 +24,7 @@ export const Projects: React.FC = () => {
     'spinner-container'
   ) as HTMLDivElement;
 
-  const float1Ref = React.useRef<HTMLDivElement>();
+  // const float1Ref = React.useRef<HTMLDivElement>();
   const float2Ref = React.useRef<HTMLDivElement>();
   const float3Ref = React.useRef<HTMLDivElement>();
   const float4Ref = React.useRef<HTMLDivElement>();
@@ -41,14 +41,14 @@ export const Projects: React.FC = () => {
     positive = '10',
   }
 
-  const onProj1 = () => {
-    spinnerContainer.style.zIndex = Displays.positive;
-    float1Ref.current.style.display = Displays.grid;
+  // const onProj1 = () => {
+  //   spinnerContainer.style.zIndex = Displays.positive;
+  //   float1Ref.current.style.display = Displays.grid;
 
-    setTimeout(() => {
-      spinnerContainer.style.zIndex = Displays.negative;
-    }, 550);
-  };
+  //   setTimeout(() => {
+  //     spinnerContainer.style.zIndex = Displays.negative;
+  //   }, 550);
+  // };
 
   const onProj2 = () => {
     spinnerContainer.style.zIndex = Displays.positive;
@@ -105,7 +105,7 @@ export const Projects: React.FC = () => {
   };
 
   const off = () => {
-    float1Ref.current.style.display = Displays.none;
+    // float1Ref.current.style.display = Displays.none;
     float2Ref.current.style.display = Displays.none;
     float3Ref.current.style.display = Displays.none;
     float4Ref.current.style.display = Displays.none;
@@ -129,10 +129,10 @@ export const Projects: React.FC = () => {
           <h3 className="proj-h3">Some projects</h3>
         </div>
 
-        <div className="projR1 proj" id="p1" onClick={onProj1}>
+        {/* <div className="projR1 proj" id="p1" onClick={onProj1}>
           <div className="proj-hover-img"></div>
           <h4>Twisted Tiki Restaurant</h4>
-        </div>
+        </div> */}
 
         <div className="projR2 proj" id="p2" onClick={onProj2}>
           <div className="proj-hover-img"></div>
@@ -165,7 +165,7 @@ export const Projects: React.FC = () => {
         </div>
       </div>
 
-      <div id="floater1" ref={float1Ref} className="overlay">
+      {/* <div id="floater1" ref={float1Ref} className="overlay">
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
@@ -201,7 +201,7 @@ export const Projects: React.FC = () => {
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
         <div onClick={() => off()}></div>
-      </div>
+      </div> */}
 
       <div id="floater2" ref={float2Ref} className="overlay">
         <div onClick={() => off()}></div>
