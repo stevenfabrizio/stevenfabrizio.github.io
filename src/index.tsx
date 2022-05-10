@@ -12,7 +12,7 @@ React.lazy(() => import('./images/smallerWEAT.png'));
 React.lazy(() => import('./images/smallerWIKI.png'));
 
 require('./responsiveness.css');
-require('./styles.css');
+require('./index.css');
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

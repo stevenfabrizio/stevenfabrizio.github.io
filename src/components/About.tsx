@@ -42,7 +42,7 @@ const AboutMe: React.FC = () => {
         </div>
       </div>
 
-      <div className="p-container">
+      <div className="p-container translate-eles">
         <p>
           <span className="hello">
             Hi, I'm Steven
@@ -61,8 +61,7 @@ const AboutMe: React.FC = () => {
           <br />
           <br />
           Apart from being a developer, I mainly spend my time playing music on
-          my guitar. I also love riding my bike in my neighborhood when the
-          weather is nice.
+          my guitar. I also enjoy riding my bike in my neighborhood.
         </p>
       </div>
 

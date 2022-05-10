@@ -18,17 +18,17 @@ document.body.addEventListener('keyup', (event) => {
 const DoinItAll = () => {
   //
   //all projects sliding animations
-  // const projects = document.querySelectorAll('.projR1');
-  // const observer1 = new IntersectionObserver((entries) => {
-  //   entries.forEach((entry) => {
-  //     entry.target.classList.toggle('proj-animaR1', entry.isIntersecting);
+  const projects = document.querySelectorAll('.proj-h3');
+  const observer1 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      entry.target.classList.toggle('proj-h3-anima', entry.isIntersecting);
 
-  //     if (entry.isIntersecting) observer1.unobserve(entry.target);
-  //   });
-  // });
-  // for (let i = 0; i < projects.length; i++) {
-  //   observer1.observe(projects[i]);
-  // }
+      if (entry.isIntersecting) observer1.unobserve(entry.target);
+    });
+  });
+  for (let i = 0; i < projects.length; i++) {
+    observer1.observe(projects[i]);
+  }
 
   const projectsb = document.querySelectorAll('.projR2');
   const observer1b = new IntersectionObserver((entries) => {
@@ -103,19 +103,19 @@ const DoinItAll = () => {
   }
 
   //
-  //THIS IS FOR THE h3 ELEMENTS
-  // const h3s = document.querySelectorAll('.h3-observable');
-  // const observer3 = new IntersectionObserver((entries) => {
-  //   entries.forEach((entry) => {
-  //     entry.target.classList.toggle('h3-anima', entry.isIntersecting);
+  // THIS IS FOR THE TRANSLATEY
+  const h3s = document.querySelectorAll('.translate-eles');
+  const observer3 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      entry.target.classList.toggle('translate-ele', entry.isIntersecting);
 
-  //     if (entry.isIntersecting) observer3.unobserve(entry.target);
-  //   });
-  // });
+      if (entry.isIntersecting) observer3.unobserve(entry.target);
+    });
+  });
 
-  // for (let i = 0; i < h3s.length; i++) {
-  //   observer3.observe(h3s[i]);
-  // }
+  for (let i = 0; i < h3s.length; i++) {
+    observer3.observe(h3s[i]);
+  }
 
   //
   //THIS IS FOR THE project h3 ELEMENTS only
@@ -290,6 +290,22 @@ const DoinItAll = () => {
   });
   for (let i = 0; i < wave.length; i++) {
     observerWave.observe(wave[i]);
+  }
+
+  // THIS IS FOR MY IMG
+  const myImg = document.querySelectorAll('.thumbnail');
+  const observeImg = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      entry.target.classList.toggle(
+        'photo-anima',
+        entry.isIntersecting
+      );
+
+      if (entry.isIntersecting) observeImg.unobserve(entry.target);
+    });
+  });
+  for (let i = 0; i < myImg.length; i++) {
+    observeImg.observe(myImg[i]);
   }
 
   // console.log(spans);

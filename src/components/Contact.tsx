@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   return (
     <div className="contact-container">
       <div className="contact-h3">
-        <h3 className="h3-observable">Contact me</h3>
+        <h3 className="h3-observable translate-eles">Contact me</h3>
       </div>
 
       <React.Suspense fallback={<></>}>

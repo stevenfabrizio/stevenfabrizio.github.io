@@ -6,11 +6,11 @@ const Footer: React.FC = () => {
 
   return (
     <div className="footer">
-      <span className="or">or</span>
+      <span className="or translate-eles">or</span>
 
       <div className="my-email">
         <span
-          className="gmx-email"
+          className="gmx-email translate-eles"
           title="Click to copy to clipboard"
           onClick={() => {
             navigator.clipboard.writeText('shfabrizio@gmx.com');

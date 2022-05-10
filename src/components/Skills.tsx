@@ -7,7 +7,7 @@ const Skills: React.FC = () => {
     <div className="skills-container">
       <div className="first-skills-div"></div>
 
-      <h3 className="h3-observable">Technologies</h3>
+      <h3 className="translate-eles">Technologies</h3>
 
       <div className="a-skill">
         <svg className="html5" viewBox="0 0 128 128">

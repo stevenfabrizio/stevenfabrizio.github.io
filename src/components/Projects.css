@@ -55,8 +55,26 @@
 
   color: rgb(10, 10, 10);
 }
+.proj-h3-anima {
+  animation: proj-h3-anima 1.4s linear;
+}
+@keyframes proj-h3-anima {
+  0% {
+    transform: translate3d(5%, 0%, 0px);
+    opacity: .6;
+  }
+  50% {
+    transform: translate3d(-1%, 0%, 0px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .proj {
-  transform: translate3d(0, 0, 0), translate(0), translateZ(0);
+  /* transform: translate3d(0, 0, 0), translate(0), translateZ(0); */
   backface-visibility: hidden;
 
   cursor: pointer;
@@ -89,8 +107,8 @@
   transition: 0.1s linear all;
 }
 .proj:hover {
-  transform: scale(1.005);
-  box-shadow: 0px 1px 1px 0px rgb(104, 104, 104);
+  /* transform: scale(1.005); */
+  box-shadow: 0px 2px 2px 0px rgb(104, 104, 104);
 }
 
 #p1 {

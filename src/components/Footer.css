@@ -54,6 +54,7 @@
   grid-template-columns: 7fr auto 1fr auto 7fr;
 
   padding: 20px;
+  padding-top: 26px;
 }
 .footer-icons svg {
   height: 40px;

@@ -21,3 +21,17 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+
+.translate-ele {
+  animation: translate-anima 1s ease-out;
+}
+@keyframes translate-anima {
+  0% {
+    opacity: 0.6;
+    transform: translate3d(0px, 7vh, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -9,14 +9,14 @@ const ContactForm: React.FC = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='translate-eles' onSubmit={handleSubmit}>
       <label htmlFor="email"></label>
 
-      <input id="e-mail" type="email" name="email" placeholder="✉ E-mail" />
+      <input id="e-mail" type="email" name="email" placeholder="✉ E-mail"/>
 
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
-      <textarea id="message" name="message" placeholder="✎ Your Message" />
+      <textarea id="message" name="message" placeholder="✎ Your Message"/>
 
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
