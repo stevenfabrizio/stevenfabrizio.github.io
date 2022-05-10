@@ -56,7 +56,8 @@
   color: rgb(10, 10, 10);
 }
 .proj {
-  transform: translate3d(0%, 0%, 0px);
+  transform: translate3d(0, 0, 0), translate(0), translateZ(0);
+  backface-visibility: hidden;
 
   cursor: pointer;
 
@@ -85,10 +86,11 @@
   box-shadow: rgba(10, 10, 10, 0.3) 0px 1px 1px 0px;
 
   /* outline: 1px solid rgb(200, 200, 200); */
+  transition: 0.1s linear all;
 }
 .proj:hover {
-  transform: scale3d(1.01, 1.01, 1.01);
-  box-shadow: 0px 1px 0px 0px rgb(104, 104, 104);
+  transform: scale(1.005);
+  box-shadow: 0px 1px 1px 0px rgb(104, 104, 104);
 }
 
 #p1 {

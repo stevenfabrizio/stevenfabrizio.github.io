@@ -24,17 +24,33 @@
 
     margin-top: 6vh;
     margin-bottom: 8vh;
-  }
-  .photo-container {
-    display: none;
-  }
-  .about-me-container {
     padding: 20px;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto 1fr;
+  }
+
+  .abt{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .photo-container {
+    grid-row: 3;
+    grid-column: 1;
+    max-width: 40%;
+
+    align-self: center;
+    justify-self: center;
   }
   .p-container {
+    grid-row: 2;
+    grid-column: 1;
+
     grid-column: 1;
     margin-right: 0px;
+  }
+  .amb{
+    grid-row: 4;
+    grid-column: 1;
   }
 
   .proj {
@@ -42,7 +58,7 @@
     max-height: 55vh;
     min-width: 0;
 
-    margin-left: 10vw!important;
+    margin-left: 10vw !important;
     /* margin-right: 10vw!important; */
   }
   .x-btn {
@@ -69,7 +85,7 @@
     background-image: url('./images/smallerSUD.png') !important;
   }
   .img-container3 {
-    background-image: url('./images/smallerBTC.png')!important;
+    background-image: url('./images/smallerBTC.png') !important;
   }
   .img-container4 {
     background-image: url('./images/smallerBOOT.png') !important;
@@ -84,7 +100,7 @@
     background-image: url('./images/smallerWIKI.png') !important;
   }
 
-  .overlay-img{
+  .overlay-img {
     background-size: cover;
   }
 

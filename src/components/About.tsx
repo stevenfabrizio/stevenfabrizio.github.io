@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './About.css';
-import Selfie from '../images/selfie.webp';
+import Self from '../images/self.png';
 
 const AboutMe: React.FC = () => {
   //targeted by element in diff component to scroll to
@@ -28,15 +28,14 @@ const AboutMe: React.FC = () => {
     <div className="about-me-container" ref={aboutRef}>
       <div className="abT"></div>
 
-      <h3 className="h3-observable">About Me</h3>
-
       <div className="photo-container">
         <div className="photo-frame">
           <img
             alt="my-photo"
             loading="lazy"
+            decoding="async"
             className="thumbnail overlay-img"
-            src={Selfie}
+            src={Self}
           />
         </div>
       </div>
@@ -50,14 +49,14 @@ const AboutMe: React.FC = () => {
           <br />
           <br />
           <span className="first">M </span>
-          <span className="second">y</span> passion for programming began as a
-          kid. I love web development because I am a math and logic oriented
-          person with a creative spirit. Elegent web solutions and beautiful websites inspire me. I want to create them with a strong team that is
+          <span className="second">y</span> skillset is entirely self-taught . I love web development because I am a math and logic oriented
+          person with a creative spirit. Elegent web solutions and beautiful
+          websites inspire me. I want to create them with a strong team that is
           passionate like me.
           <br />
           <br />
-          Apart from being a developer, I mainly spend my time playing music on my
-          guitar or riding my bike in my neighborhood.
+          Apart from being a developer, I mainly spend my time playing music on
+          my guitar or riding my bike in my neighborhood.
         </p>
       </div>
 
