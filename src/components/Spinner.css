@@ -23,14 +23,14 @@
 .lds-spinner {
   display: inline-block;
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
 
-  padding-left: calc(50% - 36px);
-  padding-top: calc(45vh - 40px);
+  padding-left: calc(50% - 18px);
+  padding-top: calc(45vh - 20px);
 }
 .lds-spinner div {
-  transform-origin: 40px 40px;
+  transform-origin: 20px 20px;
   animation: lds-spinner 1.2s linear infinite;
 }
 .lds-spinner div:after {
@@ -38,9 +38,9 @@
   display: block;
   position: absolute;
   top: 3px;
-  left: 37px;
-  width: 6px;
-  height: 18px;
+  left: 18px;
+  width: 3px;
+  height: 9px;
   border-radius: 20%;
   background: rgb(18, 18, 18);
 }

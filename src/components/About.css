@@ -34,26 +34,51 @@
   grid-column: 1;
 
   display: grid;
+  grid-template-columns: 1fr;
 
   align-self: center;
   justify-self: center;
 
   /* border: 4px double white; */
 
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px 0px; */
 
   /* padding: 10px; */
 }
+
+.thats-me{
+  font-size: 20px;
+
+  width: 100%;
+  text-align: center;
+
+  line-height: 1;
+
+  transform: rotate(-4deg);
+}
+.curved-arrow{
+  margin-top: -14px;
+
+  line-height: 1.5;
+
+  font-size: 36px;
+
+  text-indent: 90px;
+  width: 100%;
+  text-align: center;
+}
+
 .photo-frame img {
   max-width: 100%;
   height: auto;
+
+  border-radius: 100%;
 
   align-self: center;
   justify-self: center;
 }
 
 .p-container {
-
   grid-row: 2;
   grid-column: 2;
 

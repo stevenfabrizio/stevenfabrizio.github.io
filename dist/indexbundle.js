@@ -2028,6 +2028,8 @@ const AboutMe = () => {
         react_1.default.createElement("div", { className: "abT" }),
         react_1.default.createElement("div", { className: "photo-container" },
             react_1.default.createElement("div", { className: "photo-frame" },
+                react_1.default.createElement("p", { className: "thats-me" }, "That's me!"),
+                react_1.default.createElement("p", { className: "curved-arrow" }, "\u2938"),
                 react_1.default.createElement("img", { alt: "my-photo", loading: "lazy", decoding: "async", className: "thumbnail overlay-img", src: self_png_1.default }))),
         react_1.default.createElement("div", { className: "p-container" },
             react_1.default.createElement("p", null,
@@ -2038,10 +2040,13 @@ const AboutMe = () => {
                 react_1.default.createElement("br", null),
                 react_1.default.createElement("span", { className: "first" }, "M "),
                 react_1.default.createElement("span", { className: "second" }, "y"),
-                " skillset is entirely self-taught . I love web development because I am a math and logic oriented person with a creative spirit. Elegent web solutions and beautiful websites inspire me. I want to create them with a strong team that is passionate like me.",
+                " skillset is entirely self-taught .",
                 react_1.default.createElement("br", null),
                 react_1.default.createElement("br", null),
-                "Apart from being a developer, I mainly spend my time playing music on my guitar or riding my bike in my neighborhood.")),
+                "I love web development because I am a math and logic oriented person with a creative spirit. Elegent web solutions and beautiful websites inspire me. I want to create them with a strong team that is passionate like me.",
+                react_1.default.createElement("br", null),
+                react_1.default.createElement("br", null),
+                "Apart from being a developer, I mainly spend my time playing music on my guitar. I also love riding my bike in my neighborhood when the weather is nice.")),
         react_1.default.createElement("div", { className: "amB" })));
 };
 exports["default"] = AboutMe;
