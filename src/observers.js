@@ -125,7 +125,10 @@ const DoinItAll = () => {
     entries.forEach((entry) => {
       entry.target.classList.toggle('proj-h3-anima', entry.isIntersecting);
 
-      if (entry.isIntersecting) observer3a.unobserve(entry.target);
+      if (entry.isIntersecting) {
+        document.getElementById('navbar').classList.toggle('navbar-anima');
+        observer3a.unobserve(entry.target);
+      }
     });
   });
 
@@ -261,7 +264,7 @@ const DoinItAll = () => {
   }
 
   //
-  // THIS IS FOR THE skills spans
+  // THIS IS FOR THE skills/technolgies spans
   const spans = document.querySelectorAll('.skills-span');
   const observer13 = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -296,10 +299,7 @@ const DoinItAll = () => {
   const myImg = document.querySelectorAll('.thumbnail');
   const observeImg = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      entry.target.classList.toggle(
-        'photo-anima',
-        entry.isIntersecting
-      );
+      entry.target.classList.toggle('photo-anima', entry.isIntersecting);
 
       if (entry.isIntersecting) observeImg.unobserve(entry.target);
     });

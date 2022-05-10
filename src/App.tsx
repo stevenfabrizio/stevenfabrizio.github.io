@@ -5,7 +5,7 @@ import Spinner from './components/Spinner';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-// import Contact from './components/Contact';
+import Nav from './components/Nav'
 
 //might as well lazy load unimportant static stuff
 const Contact = React.lazy(() => import('./components/Contact'));
@@ -19,11 +19,11 @@ const App: React.FC = () => {
       <About />
       <Projects />
       <Skills />
-
       <React.Suspense fallback={<></>}>
         <Contact />
         <Footer />
       </React.Suspense>
+      <Nav />
     </>
   );
 };

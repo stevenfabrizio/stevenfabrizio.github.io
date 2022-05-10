@@ -50,8 +50,9 @@ const AboutMe: React.FC = () => {
           </span>
           <br />
           <br />
-          <span className="first">M </span>
-          <span className="second">y</span> skillset is entirely self-taught .
+          {/* <span className="first">I </span>
+          <span className="second">have</span>on't   */}
+          I'm a self-taught developer based in Raleigh. 
           <br />
           <br />
           I love web development because I am a math and logic oriented person
