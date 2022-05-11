@@ -88,7 +88,7 @@ const Skills: React.FC = () => {
         <span className="skills-span">Express</span>
       </div>
 
-      <div className="last-skills-div"></div>
+      <div className="last-skills-div" id='contact'></div>
     </div>
   );
 };

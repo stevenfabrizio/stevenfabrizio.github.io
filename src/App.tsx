@@ -15,6 +15,7 @@ const App: React.FC = () => {
   React.useEffect(() => {
     console.log(window.innerHeight)
     console.log(document.body.clientHeight)
+    console.log(document.body.scrollHeight)
   }, []);
   return (
     <>

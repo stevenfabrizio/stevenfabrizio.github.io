@@ -3,16 +3,9 @@ import React from 'react';
 import './Footer.css';
 
 const Footer: React.FC = () => {
-
-  //footer loads last so doing this here
+  //if page is loaded at a href or loaded beyond landing component, show navbar.
   React.useEffect(() => {
-    if (
-      window.location.hash === '#technologies' ||
-      window.location.hash === '#projects' ||
-      window.location.hash === '#about' ||
-      window.location.hash === '#contact' ||
-      document.body.clientHeight > window.innerHeight
-    ) {
+    if (window.location.hash || window.scrollY >= window.innerHeight) {
       document.getElementById('navbar').classList.add('navbar-anima');
     }
   }, []);
