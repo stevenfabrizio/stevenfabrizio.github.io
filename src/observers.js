@@ -138,7 +138,7 @@ const DoinItAll = () => {
       entry.target.classList.toggle('proj-h3-anima', entry.isIntersecting);
 
       if (entry.isIntersecting) {
-        document.getElementById('navbar').classList.toggle('navbar-anima');
+        document.getElementById('navbar').classList.add('navbar-anima');
         observer3a.unobserve(entry.target);
       }
     });
@@ -315,10 +315,10 @@ const DoinItAll = () => {
 
       if (entry.isIntersecting) {
         observeImg.unobserve(entry.target);
-        document.querySelector('.thats-me').classList.toggle('thats-me-anima');
+        document.querySelector('.thats-me').classList.add('thats-me-anima');
         document
           .querySelector('.curved-arrow')
-          .classList.toggle('curved-arrow-anima');
+          .classList.add('curved-arrow-anima');
       }
     });
   });
