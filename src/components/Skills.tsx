@@ -4,7 +4,7 @@ import './Skills.css';
 
 const Skills: React.FC = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id='technologies'>
       <div className="first-skills-div"></div>
 
       <h3 className="translate-eles">Technologies</h3>

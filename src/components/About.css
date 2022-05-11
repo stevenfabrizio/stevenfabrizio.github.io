@@ -48,6 +48,7 @@
 
 .thats-me {
   font-size: 20px;
+  opacity: 0;
 
   width: 100%;
   text-align: center;
@@ -56,8 +57,13 @@
 
   transform: rotate(-8deg);
 }
+.thats-me-anima {
+  animation: photo-anima 1s linear forwards 2s;
+}
+
 .curved-arrow {
   margin-top: -14px;
+  opacity: 0;
 
   line-height: 1.5;
 
@@ -66,6 +72,9 @@
   text-indent: 90px;
   width: 100%;
   text-align: center;
+}
+.curved-arrow-anima {
+  animation: photo-anima 1s linear forwards 3s;
 }
 
 .photo-frame img {
@@ -76,10 +85,12 @@
 
   align-self: center;
   justify-self: center;
+  opacity: 0;
 }
 .photo-anima {
-  animation: photo-anima 2s linear 1s;
+  animation: photo-anima 2s linear forwards 1s;
 }
+
 @keyframes photo-anima {
   0% {
     opacity: 0;

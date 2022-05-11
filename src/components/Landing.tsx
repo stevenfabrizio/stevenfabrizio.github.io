@@ -15,6 +15,7 @@ const Landing: React.FC = () => {
         data-ca3_iconfont="ETmodules"
         data-ca3_icon=""
         id="arrow"
+        href="#about"
       />
     </div>
   );

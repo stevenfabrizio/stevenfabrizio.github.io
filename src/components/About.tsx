@@ -8,24 +8,24 @@ const AboutMe: React.FC = () => {
   const aboutRef = React.useRef<HTMLDivElement>(null);
 
   //making arrow clicked scroll to about-me section.
-  const ScrollToAbout = () => {
-    window.scrollTo({
-      top: aboutRef.current.offsetTop,
-      behavior: 'smooth',
-    });
-  };
+  // const ScrollToAbout = () => {
+  //   window.scrollTo({
+  //     top: aboutRef.current.offsetTop,
+  //     behavior: 'smooth',
+  //   });
+  // };
 
   //adding onclick to the arrow once the element in this component loads for it.
-  React.useEffect(() => {
-    const arrowEle: HTMLAnchorElement = document.getElementById(
-      'arrow'
-    ) as HTMLAnchorElement;
+  // React.useEffect(() => {
+  //   const arrowEle: HTMLAnchorElement = document.getElementById(
+  //     'arrow'
+  //   ) as HTMLAnchorElement;
 
-    arrowEle.onclick = ScrollToAbout;
-  }, []);
+  //   arrowEle.onclick = ScrollToAbout;
+  // }, []);
 
   return (
-    <div className="about-me-container" ref={aboutRef}>
+    <div className="about-me-container" id="about">
       <div className="abT"></div>
 
       <div className="photo-container">
@@ -52,7 +52,7 @@ const AboutMe: React.FC = () => {
           <br />
           {/* <span className="first">I </span>
           <span className="second">have</span>on't   */}
-          I'm a self-taught developer based in Raleigh. 
+          I'm a self-taught developer based in Raleigh.
           <br />
           <br />
           I love web development because I am a math and logic oriented person
@@ -61,12 +61,12 @@ const AboutMe: React.FC = () => {
           passionate like me.
           <br />
           <br />
-          Apart from being a developer, I mainly spend my time playing music on
-          my guitar. I also enjoy riding my bike in my neighborhood.
+          Apart from programming, I mainly spend my time playing music on my
+          guitar. I also enjoy riding my bike in my neighborhood.
         </p>
       </div>
 
-      <div className="amB"></div>
+      <div className="amB" id='projects'></div>
     </div>
   );
 };

@@ -13,6 +13,9 @@
   color: rgb(10, 10, 10);
 }
 
+html{
+  scroll-behavior: smooth;
+}
 #root {
   max-width: 100vw;
 
@@ -21,6 +24,7 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+
 
 .translate-ele {
   animation: translate-anima 1s ease-out;

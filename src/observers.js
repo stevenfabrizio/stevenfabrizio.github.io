@@ -15,7 +15,19 @@ document.body.addEventListener('keyup', (event) => {
   }
 });
 
+
 const DoinItAll = () => {
+  //doing the html hash first
+  // if (
+  //   window.location.hash === '#technologies' ||
+  //   window.location.hash === '#projects' ||
+  //   window.location.hash === '#about' ||
+  //   window.location.hash === '#contact'
+  // ) {
+  //   document.getElementById('navbar').classList.add('navbar-anima');
+  // }
+
+
   //
   //all projects sliding animations
   const projects = document.querySelectorAll('.proj-h3');
@@ -301,7 +313,13 @@ const DoinItAll = () => {
     entries.forEach((entry) => {
       entry.target.classList.toggle('photo-anima', entry.isIntersecting);
 
-      if (entry.isIntersecting) observeImg.unobserve(entry.target);
+      if (entry.isIntersecting) {
+        observeImg.unobserve(entry.target);
+        document.querySelector('.thats-me').classList.toggle('thats-me-anima');
+        document
+          .querySelector('.curved-arrow')
+          .classList.toggle('curved-arrow-anima');
+      }
     });
   });
   for (let i = 0; i < myImg.length; i++) {

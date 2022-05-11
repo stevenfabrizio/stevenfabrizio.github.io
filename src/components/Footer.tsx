@@ -1,8 +1,21 @@
 import React from 'react';
 
-import './Footer.css'
+import './Footer.css';
 
 const Footer: React.FC = () => {
+
+  //footer loads last so doing this here
+  React.useEffect(() => {
+    if (
+      window.location.hash === '#technologies' ||
+      window.location.hash === '#projects' ||
+      window.location.hash === '#about' ||
+      window.location.hash === '#contact' ||
+      document.body.clientHeight > window.innerHeight
+    ) {
+      document.getElementById('navbar').classList.add('navbar-anima');
+    }
+  }, []);
 
   return (
     <div className="footer">
