@@ -4,10 +4,10 @@ import './Skills.css';
 
 const Skills: React.FC = () => {
   return (
-    <div className="skills-container" id='technologies'>
+    <div className="skills-container">
       <div className="first-skills-div"></div>
 
-      <h3 className="translate-eles">Technologies</h3>
+      <h3 className="translate-eles" id='technologies'>Technologies</h3>
 
       <div className="a-skill">
         <svg className="html5" viewBox="0 0 128 128">
@@ -88,7 +88,7 @@ const Skills: React.FC = () => {
         <span className="skills-span">Express</span>
       </div>
 
-      <div className="last-skills-div" id='contact'></div>
+      <div className="last-skills-div"></div>
     </div>
   );
 };

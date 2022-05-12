@@ -12,8 +12,7 @@
 
   color: rgb(10, 10, 10);
 }
-
-html{
+html {
   scroll-behavior: smooth;
 }
 #root {
@@ -25,7 +24,15 @@ html{
   grid-template-columns: 1fr;
 }
 
+/* this gives padding when clicking anchor tags */
+#projects,
+#about,
+#technologies,
+#contact {
+  scroll-margin-top: 66px;
+}
 
+/* the animation for elements floating up */
 .translate-ele {
   animation: translate-anima 1s ease-out;
 }

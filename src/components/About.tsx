@@ -25,7 +25,7 @@ const AboutMe: React.FC = () => {
   // }, []);
 
   return (
-    <div className="about-me-container" id="about">
+    <div className="about-me-container">
       <div className="abT"></div>
 
       <div className="photo-container">
@@ -44,7 +44,7 @@ const AboutMe: React.FC = () => {
 
       <div className="p-container translate-eles">
         <p>
-          <span className="hello">
+          <span className="hello" id="about">
             Hi, I'm Steven
             <span className="wave-hand">👋</span>
           </span>
