@@ -62,11 +62,11 @@ const AboutMe: React.FC = () => {
           <br />
           <br />
           Apart from programming, I mainly spend my time playing music on my
-          guitar. I also enjoy riding my bike in my neighborhood.
+          guitar and riding my bike in my neighborhood.
         </p>
       </div>
 
-      <div className="amB" id='projects'></div>
+      <div className="amB"></div>
     </div>
   );
 };

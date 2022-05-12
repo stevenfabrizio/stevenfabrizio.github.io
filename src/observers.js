@@ -15,18 +15,7 @@ document.body.addEventListener('keyup', (event) => {
   }
 });
 
-
 const DoinItAll = () => {
-  //doing the html hash first
-  // if (
-  //   window.location.hash === '#technologies' ||
-  //   window.location.hash === '#projects' ||
-  //   window.location.hash === '#about' ||
-  //   window.location.hash === '#contact'
-  // ) {
-  //   document.getElementById('navbar').classList.add('navbar-anima');
-  // }
-
 
   //
   //all projects sliding animations
@@ -138,7 +127,9 @@ const DoinItAll = () => {
       entry.target.classList.toggle('proj-h3-anima', entry.isIntersecting);
 
       if (entry.isIntersecting) {
-        document.getElementById('navbar').classList.add('navbar-anima');
+        if (window.innerWidth > 760) {
+          document.getElementById('navbar').classList.add('navbar-anima');
+        }
         observer3a.unobserve(entry.target);
       }
     });
@@ -150,17 +141,17 @@ const DoinItAll = () => {
 
   //
   // THIS IS FOR THE BIG M in My
-  const first = document.querySelectorAll('.first');
-  const observer4 = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      entry.target.classList.toggle('first-anima', entry.isIntersecting);
+  // const first = document.querySelectorAll('.first');
+  // const observer4 = new IntersectionObserver((entries) => {
+  //   entries.forEach((entry) => {
+  //     entry.target.classList.toggle('first-anima', entry.isIntersecting);
 
-      if (entry.isIntersecting) observer4.unobserve(entry.target);
-    });
-  });
-  for (let i = 0; i < first.length; i++) {
-    observer4.observe(first[i]);
-  }
+  //     if (entry.isIntersecting) observer4.unobserve(entry.target);
+  //   });
+  // });
+  // for (let i = 0; i < first.length; i++) {
+  //   observer4.observe(first[i]);
+  // }
 
   //
   // THIS IS FOR THE OVERLAY IMAGES

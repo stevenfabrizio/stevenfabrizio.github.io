@@ -124,7 +124,7 @@ export const Projects: React.FC = () => {
 
   return (
     <>
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         <div className="proj-h3-container">
           <h3 className="proj-h3">Some projects</h3>
         </div>
@@ -423,8 +423,8 @@ export const Projects: React.FC = () => {
             </h3>
           </div>
           <p>
-            A website where you can compare an english Wikipedia article with a
-            non english one. The non english one is translated for you.
+            A website where you can compare an English Wikipedia article with a
+            non-English one. The non-English one is translated for you.
           </p>
         </div>
         <div onClick={() => off()}></div>

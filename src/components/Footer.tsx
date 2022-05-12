@@ -3,9 +3,12 @@ import React from 'react';
 import './Footer.css';
 
 const Footer: React.FC = () => {
-  //if page is loaded at a href or loaded beyond landing component, show navbar.
+  // if page is loaded at a href or loaded beyond landing component, show navbar.
   React.useEffect(() => {
-    if (window.location.hash || window.scrollY >= window.innerHeight) {
+    if (
+      (window.location.hash || window.scrollY >= window.innerHeight) &&
+      window.innerWidth > 760
+    ) {
       document.getElementById('navbar').classList.add('navbar-anima');
     }
   }, []);
@@ -31,7 +34,7 @@ const Footer: React.FC = () => {
 
         <div className="github-icon">
           <a
-            title="github"
+            title="github link"
             target="_blank"
             href="https://github.com/stevenfabrizio?tab=repositories"
           >
@@ -56,9 +59,9 @@ const Footer: React.FC = () => {
 
         <div className="resume">
           <a
-            title="resume"
+            title="pdf"
             target="_blank"
-            href="https://cdn.discordapp.com/attachments/840740146176851979/943093696713330729/resumehaha.pdf"
+            href="https://cdn.discordapp.com/attachments/840740146176851979/974128549596381194/developer-res.pdf"
           >
             <svg fill={'rgb(234, 238, 233)'} viewBox="0 0 512 512">
               <path d="M485.88,512H26.12V0h293L485.88,161.64ZM44.12,494H467.88V169.26L311.82,18H44.12Z" />

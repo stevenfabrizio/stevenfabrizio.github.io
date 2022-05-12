@@ -55,10 +55,10 @@
 
   line-height: 1;
 
-  transform: rotate(-8deg);
+  transform: rotate(-12deg);
 }
 .thats-me-anima {
-  animation: photo-anima 1s linear forwards 2s;
+  animation: photo-anima 2s linear forwards 1s;
 }
 
 .curved-arrow {
@@ -68,6 +68,8 @@
   line-height: 1.5;
 
   font-size: 36px;
+
+  color: rgb(24, 24, 24);
 
   text-indent: 90px;
   width: 100%;
@@ -144,16 +146,16 @@
     transform: rotate(0deg);
   }
   10% {
-    transform: rotate(18deg);
+    transform: rotate(20deg);
   }
   20% {
-    transform: rotate(-9deg);
+    transform: rotate(-10deg);
   }
   30% {
-    transform: rotate(14deg);
+    transform: rotate(15deg);
   }
   40% {
-    transform: rotate(-4deg);
+    transform: rotate(-5deg);
   }
   50% {
     transform: rotate(0deg);
@@ -170,7 +172,7 @@
   word-break: keep-all;
 }
 
-.first {
+/* .first {
   font-size: 48px !important;
 
   position: absolute;
@@ -192,7 +194,7 @@
 
 .second {
   margin-left: 40px;
-}
+} */
 
 .abB {
   grid-row: 3;

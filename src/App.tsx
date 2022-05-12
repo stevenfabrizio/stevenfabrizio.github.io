@@ -12,11 +12,11 @@ const Contact = React.lazy(() => import('./components/Contact'));
 const Footer = React.lazy(() => import('./components/Footer'));
 
 const App: React.FC = () => {
-  React.useEffect(() => {
-    console.log(window.innerHeight)
-    console.log(document.body.clientHeight)
-    console.log(document.body.scrollHeight)
-  }, []);
+//   React.useEffect(() => {
+//     console.log(window.innerHeight)
+//     console.log(document.body.clientHeight)
+//     console.log(document.body.scrollHeight)
+//   }, []);
   return (
     <>
       <Landing />
