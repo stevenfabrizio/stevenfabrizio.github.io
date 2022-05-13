@@ -4,26 +4,6 @@ import './About.css';
 import Self from '../images/self.png';
 
 const AboutMe: React.FC = () => {
-  //targeted by element in diff component to scroll to
-  const aboutRef = React.useRef<HTMLDivElement>(null);
-
-  //making arrow clicked scroll to about-me section.
-  // const ScrollToAbout = () => {
-  //   window.scrollTo({
-  //     top: aboutRef.current.offsetTop,
-  //     behavior: 'smooth',
-  //   });
-  // };
-
-  //adding onclick to the arrow once the element in this component loads for it.
-  // React.useEffect(() => {
-  //   const arrowEle: HTMLAnchorElement = document.getElementById(
-  //     'arrow'
-  //   ) as HTMLAnchorElement;
-
-  //   arrowEle.onclick = ScrollToAbout;
-  // }, []);
-
   return (
     <div className="about-me-container">
       <div className="abT"></div>

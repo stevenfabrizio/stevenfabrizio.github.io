@@ -341,15 +341,14 @@ export const Projects: React.FC = () => {
                 Weather Forecast
                 <img loading="lazy" src={ExternalLink} className="wiggles el" />
               </a>
-              <span className="technologies">React, TypeScript</span>
+              <span className="technologies">PostgreSQL, Express, React, TypeScript</span>
             </h3>
           </div>
 
           <p>
-            A weather app that shows you current, hourly and daily weather
-            information. The background will change based off a combination of
-            weather conditions and local time of day. I added a 'My Location'
-            button for better user experience.
+            A weather app that shows you current, hourly and daily weather. The background will change with
+            weather conditions and local time. I added a 'My Location'
+            button for better user experience. Added a database to store recent searches.
           </p>
         </div>
         <div onClick={() => off()}></div>
