@@ -34,12 +34,12 @@ html {
 
 /* the animation for elements floating up */
 .translate-ele {
-  animation: translate-anima 1s ease-out;
+  animation: translate-anima 0.6s;
 }
 @keyframes translate-anima {
   0% {
-    opacity: 0.6;
-    transform: translate3d(0px, 7vh, 0px);
+    opacity: 0.1;
+    transform: translate3d(0px, 3vh, 0px);
   }
   100% {
     opacity: 1;
