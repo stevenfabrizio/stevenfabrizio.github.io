@@ -38,8 +38,8 @@ html {
 }
 @keyframes translate-anima {
   0% {
-    opacity: 0.1;
-    transform: translate3d(0px, 3vh, 0px);
+    opacity: 0;
+    transform: translate3d(0px, 5vh, 0px);
   }
   100% {
     opacity: 1;

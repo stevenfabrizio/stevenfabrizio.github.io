@@ -29,7 +29,7 @@
 }
 @keyframes steven-anima {
   0% {
-    transform: translateY(14vh);
+    transform: translateY(18vh);
   }
   /* 65%{
     transform: translateY(0vh)
@@ -56,10 +56,10 @@
 }
 @keyframes fabrizio-anima {
   0% {
-    transform: translateY(11vh);
+    transform: translateY(14vh);
   }
   5% {
-    transform: translateY(11vh);
+    transform: translateY(14vh);
   }
   63% {
     transform: translateY(-1vh);

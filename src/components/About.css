@@ -1,7 +1,8 @@
 /*about */
 .about-me-container {
+  margin-top: 8vh;
   /* background-color: white; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
 
   display: grid;
@@ -58,7 +59,7 @@
   transform: rotate(-12deg);
 }
 .thats-me-anima {
-  animation: photo-anima 2s linear forwards 1s;
+  animation: photo-anima 1s linear forwards .5s;
 }
 
 .curved-arrow {
@@ -76,7 +77,7 @@
   text-align: center;
 }
 .curved-arrow-anima {
-  animation: photo-anima 1s linear forwards 3s;
+  animation: photo-anima 1s linear forwards 1.5s;
 }
 
 .photo-frame img {
@@ -90,7 +91,7 @@
   opacity: 0;
 }
 .photo-anima {
-  animation: photo-anima 2s linear forwards 1s;
+  animation: photo-anima 1s linear forwards .5s;
 }
 
 @keyframes photo-anima {
