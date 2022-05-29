@@ -29,13 +29,13 @@
 }
 @keyframes steven-anima {
   0% {
-    transform: translateY(18vh);
+    transform: translateY(22vh);
   }
   /* 65%{
     transform: translateY(0vh)
   } */
   57% {
-    transform: translateY(-1vh);
+    transform: translateY(-2vh);
   }
   100% {
     transform: translateY(0vh);

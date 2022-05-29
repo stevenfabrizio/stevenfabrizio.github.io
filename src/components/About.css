@@ -59,7 +59,7 @@
   transform: rotate(-12deg);
 }
 .thats-me-anima {
-  animation: photo-anima 1s linear forwards .5s;
+  animation: photo-anima 1s linear forwards;
 }
 
 .curved-arrow {
@@ -77,7 +77,7 @@
   text-align: center;
 }
 .curved-arrow-anima {
-  animation: photo-anima 1s linear forwards 1.5s;
+  animation: photo-anima 1s linear forwards 0.5s;
 }
 
 .photo-frame img {
@@ -91,7 +91,7 @@
   opacity: 0;
 }
 .photo-anima {
-  animation: photo-anima 1s linear forwards .5s;
+  animation: photo-anima 1s linear forwards .05s;
 }
 
 @keyframes photo-anima {
