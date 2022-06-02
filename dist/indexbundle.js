@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 8163:
+/***/ 2135:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1387,7 +1387,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;(function (self) {
 
 /***/ }),
 
-/***/ 3156:
+/***/ 8674:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1397,7 +1397,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6627:
+/***/ 5571:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1407,7 +1407,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6779:
+/***/ 6714:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1417,7 +1417,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4765:
+/***/ 3237:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1427,7 +1427,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4013:
+/***/ 8163:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1437,7 +1437,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 167:
+/***/ 1260:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1447,7 +1447,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3549:
+/***/ 8058:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1457,7 +1457,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2682:
+/***/ 8407:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1467,7 +1467,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2985:
+/***/ 8485:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1987,14 +1987,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-const Landing_1 = __importDefault(__webpack_require__(7872));
-const Spinner_1 = __importDefault(__webpack_require__(8052));
-const About_1 = __importDefault(__webpack_require__(8685));
-const Projects_1 = __importDefault(__webpack_require__(2757));
-const Skills_1 = __importDefault(__webpack_require__(5368));
-const Nav_1 = __importDefault(__webpack_require__(4429));
-const Contact = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(448))));
-const Footer = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(8023))));
+const Landing_1 = __importDefault(__webpack_require__(5938));
+const Spinner_1 = __importDefault(__webpack_require__(7801));
+const About_1 = __importDefault(__webpack_require__(8416));
+const Projects_1 = __importDefault(__webpack_require__(1356));
+const Skills_1 = __importDefault(__webpack_require__(4033));
+const Nav_1 = __importDefault(__webpack_require__(714));
+const Contact = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(7802))));
+const Footer = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(5327))));
 const App = () => {
     return (react_1.default.createElement(react_1.default.Fragment, null,
         react_1.default.createElement(Landing_1.default, null),
@@ -2012,7 +2012,7 @@ exports["default"] = App;
 
 /***/ }),
 
-/***/ 8685:
+/***/ 8416:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2022,19 +2022,19 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-__webpack_require__(3156);
+__webpack_require__(8674);
 const self_png_1 = __importDefault(__webpack_require__(9710));
 const AboutMe = () => {
     return (react_1.default.createElement("div", { className: "about-me-container" },
         react_1.default.createElement("div", { className: "abT" }),
         react_1.default.createElement("div", { className: "photo-container" },
             react_1.default.createElement("div", { className: "photo-frame" },
-                react_1.default.createElement("p", { className: "thats-me" }, "That's me!"),
+                react_1.default.createElement("p", { className: "thats-me", id: "about" }, "That's me!"),
                 react_1.default.createElement("p", { className: "curved-arrow" }, "\u2938"),
                 react_1.default.createElement("img", { alt: "my-photo", loading: "lazy", decoding: "async", className: "thumbnail overlay-img", src: self_png_1.default }))),
         react_1.default.createElement("div", { className: "p-container translate-eles" },
             react_1.default.createElement("p", null,
-                react_1.default.createElement("span", { className: "hello", id: "about" },
+                react_1.default.createElement("span", { className: "hello" },
                     "Hi, I'm Steven",
                     react_1.default.createElement("span", { className: "wave-hand" }, "\uD83D\uDC4B")),
                 react_1.default.createElement("br", null),
@@ -2053,7 +2053,7 @@ exports["default"] = AboutMe;
 
 /***/ }),
 
-/***/ 448:
+/***/ 7802:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2086,12 +2086,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-__webpack_require__(6627);
-const ContactForm = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(1787))));
+__webpack_require__(5571);
+const ContactForm = react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(9744))));
 const Contact = () => {
     return (react_1.default.createElement("div", { className: "contact-container" },
         react_1.default.createElement("div", { className: "contact-h3" },
-            react_1.default.createElement("h3", { className: "h3-observable translate-eles", id: 'contact' }, "Contact me")),
+            react_1.default.createElement("h3", { className: "h3-observable translate-eles", id: "contact" }, "Contact me")),
         react_1.default.createElement(react_1.default.Suspense, { fallback: react_1.default.createElement(react_1.default.Fragment, null) },
             react_1.default.createElement(ContactForm, null))));
 };
@@ -2100,7 +2100,7 @@ exports["default"] = Contact;
 
 /***/ }),
 
-/***/ 1787:
+/***/ 9744:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2110,7 +2110,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-const react_2 = __webpack_require__(8163);
+const react_2 = __webpack_require__(2135);
 const ContactForm = () => {
     const [state, handleSubmit] = (0, react_2.useForm)('mjvjgazo');
     if (state.succeeded) {
@@ -2129,7 +2129,7 @@ exports["default"] = ContactForm;
 
 /***/ }),
 
-/***/ 8023:
+/***/ 5327:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2139,7 +2139,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-__webpack_require__(6779);
+__webpack_require__(6714);
 const Footer = () => {
     react_1.default.useEffect(() => {
         if ((window.location.hash || window.scrollY >= window.innerHeight) &&
@@ -2180,7 +2180,7 @@ exports["default"] = Footer;
 
 /***/ }),
 
-/***/ 7872:
+/***/ 5938:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2190,7 +2190,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-__webpack_require__(4765);
+__webpack_require__(3237);
 const Landing = () => {
     return (react_1.default.createElement("div", { className: "landing-container" },
         react_1.default.createElement("div", { className: "empty-lc-div" }),
@@ -2204,7 +2204,7 @@ exports["default"] = Landing;
 
 /***/ }),
 
-/***/ 4429:
+/***/ 714:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2214,7 +2214,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-__webpack_require__(4013);
+__webpack_require__(8163);
 const Nav = () => {
     const [windowWidth, setWindowWidth] = react_1.default.useState(window.innerWidth);
     const setWidth = () => {
@@ -2244,7 +2244,7 @@ exports["default"] = Nav;
 
 /***/ }),
 
-/***/ 2757:
+/***/ 1356:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2291,7 +2291,7 @@ react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_r
 react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(8830))));
 react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(541))));
 react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(3612))));
-__webpack_require__(167);
+__webpack_require__(1260);
 const Projects = () => {
     let spinnerContainer = document.getElementById('spinner-container');
     const float2Ref = react_1.default.useRef();
@@ -2510,7 +2510,7 @@ exports["default"] = exports.Projects;
 
 /***/ }),
 
-/***/ 5368:
+/***/ 4033:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2520,7 +2520,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-__webpack_require__(3549);
+__webpack_require__(8058);
 const Skills = () => {
     return (react_1.default.createElement("div", { className: "skills-container" },
         react_1.default.createElement("div", { className: "first-skills-div" }),
@@ -2565,7 +2565,7 @@ exports["default"] = Skills;
 
 /***/ }),
 
-/***/ 8052:
+/***/ 7801:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2575,7 +2575,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
-__webpack_require__(2682);
+__webpack_require__(8407);
 const Spinner = () => {
     return (react_1.default.createElement("div", { id: "spinner-container" },
         react_1.default.createElement("div", { className: "lds-spinner" },
@@ -2640,7 +2640,7 @@ react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_r
 react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(4244))));
 react_1.default.lazy(() => Promise.resolve().then(() => __importStar(__webpack_require__(3424))));
 __webpack_require__(3934);
-__webpack_require__(2985);
+__webpack_require__(8485);
 const root = client_1.default.createRoot(document.getElementById('root'));
 root.render(react_1.default.createElement(react_1.default.StrictMode, null,
     react_1.default.createElement(App_1.default, null)));

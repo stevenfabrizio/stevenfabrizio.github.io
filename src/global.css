@@ -29,7 +29,7 @@ html {
 #about,
 #technologies,
 #contact {
-  scroll-margin-top: 66px;
+  scroll-margin-top: 70px;
 }
 
 /* the animation for elements floating up */

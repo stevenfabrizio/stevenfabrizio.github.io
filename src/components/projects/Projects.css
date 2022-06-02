@@ -25,25 +25,25 @@
   display: grid;
 }
 .projR1 .proj-hover-img {
-  background-image: url('../images/proj1.webp');
+  background-image: url('../../images/proj1.webp');
 }
 .projR2 .proj-hover-img {
-  background-image: url('../images/proj2.webp');
+  background-image: url('../../images/proj2.webp');
 }
 .projR3 .proj-hover-img {
-  background-image: url('../images/proj3.webp');
+  background-image: url('../../images/proj3.webp');
 }
 .projR4 .proj-hover-img {
-  background-image: url('../images/proj5.webp');
+  background-image: url('../../images/proj5.webp');
 }
 .projR5 .proj-hover-img {
-  background-image: url('../images/proj4.webp');
+  background-image: url('../../images/proj4.webp');
 }
 .projR6 .proj-hover-img {
-  background-image: url('../images/proj6.webp');
+  background-image: url('../../images/proj6.webp');
 }
 .projR7 .proj-hover-img {
-  background-image: url('../images/proj7.webp');
+  background-image: url('../../images/proj7.webp');
 }
 
 .proj-h3 {
@@ -51,6 +51,7 @@
   text-align: center;
 
   font-size: 54px;
+  font-weight: 400;
 
   justify-self: start;
 
@@ -62,7 +63,7 @@
 @keyframes proj-h3-anima {
   0% {
     transform: translate3d(5%, 0%, 0px);
-    opacity: .6;
+    opacity: 0.6;
   }
   50% {
     transform: translate3d(-1%, 0%, 0px);
@@ -446,7 +447,7 @@ a {
   color: rgb(10, 10, 10);
 
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
 
   text-align: justify;
 }
@@ -480,25 +481,25 @@ a {
   /* max-width: 600px; */
 }
 .img-container1 {
-  background-image: url('../images/proj1overlay.webp');
+  background-image: url('../../images/proj1overlay.webp');
 }
 .img-container2 {
-  background-image: url('../images/proj2overlay.webp');
+  background-image: url('../../images/proj2overlay.webp');
 }
 .img-container3 {
-  background-image: url('../images/proj3overlay.webp');
+  background-image: url('../../images/proj3overlay.webp');
 }
 .img-container4 {
-  background-image: url('../images/proj5overlay.webp');
+  background-image: url('../../images/proj5overlay.webp');
 }
 .img-container5 {
-  background-image: url('../images/proj4overlay.webp');
+  background-image: url('../../images/proj4overlay.webp');
 }
 .img-container6 {
-  background-image: url('../images/proj6overlay.png');
+  background-image: url('../../images/proj6overlay.png');
 }
 .img-container7 {
-  background-image: url('../images/proj7overlay.png');
+  background-image: url('../../images/proj7overlay.png');
 }
 /* .overlay-fade-in {
   animation: overlay-img-anima 1s ease-out;

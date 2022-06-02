@@ -1,22 +1,17 @@
 import React from 'react';
 
-import Landing from './components/Landing';
-import Spinner from './components/Spinner';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Nav from './components/Nav';
+import Landing from './components/landing/Landing';
+import Spinner from './components/spinner/Spinner';
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import Skills from './components/skills/Skills';
+import Nav from './components/nav/Nav';
 
 //might as well lazy load unimportant static stuff
-const Contact = React.lazy(() => import('./components/Contact'));
-const Footer = React.lazy(() => import('./components/Footer'));
+const Contact = React.lazy(() => import('./components/contact/Contact'));
+const Footer = React.lazy(() => import('./components/footer/Footer'));
 
 const App: React.FC = () => {
-//   React.useEffect(() => {
-//     console.log(window.innerHeight)
-//     console.log(document.body.clientHeight)
-//     console.log(document.body.scrollHeight)
-//   }, []);
   return (
     <>
       <Landing />

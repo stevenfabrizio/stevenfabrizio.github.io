@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './About.css';
-import Self from '../images/self.png';
+import Self from '../../images/self.png';
 
 const AboutMe: React.FC = () => {
   return (
@@ -10,7 +10,9 @@ const AboutMe: React.FC = () => {
 
       <div className="photo-container">
         <div className="photo-frame">
-          <p className="thats-me">That's me!</p>
+          <p className="thats-me" id="about">
+            That's me!
+          </p>
           <p className="curved-arrow">⤸</p>
           <img
             alt="my-photo"
@@ -24,7 +26,7 @@ const AboutMe: React.FC = () => {
 
       <div className="p-container translate-eles">
         <p>
-          <span className="hello" id="about">
+          <span className="hello">
             Hi, I'm Steven
             <span className="wave-hand">👋</span>
           </span>

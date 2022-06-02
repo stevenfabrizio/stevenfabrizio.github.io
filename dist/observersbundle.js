@@ -18,7 +18,6 @@ document.body.addEventListener('keyup', (event) => {
 });
 
 const DoinItAll = () => {
-
   //
   //all projects sliding animations
   const projects = document.querySelectorAll('.proj-h3');

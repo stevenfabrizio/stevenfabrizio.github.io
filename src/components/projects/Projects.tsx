@@ -1,22 +1,22 @@
 import React from 'react';
 
-// import '../images/proj1.webp';
-import '../images/proj2.webp';
-import '../images/proj3.webp';
-import '../images/proj4.webp';
-import '../images/proj5.webp';
-import '../images/proj6.webp';
-import '../images/proj7.webp';
+// import '../../images/proj1.webp';
+import '../../images/proj2.webp';
+import '../../images/proj3.webp';
+import '../../images/proj4.webp';
+import '../../images/proj5.webp';
+import '../../images/proj6.webp';
+import '../../images/proj7.webp';
 
-import ExternalLink from '../images/externallink.webp';
+import ExternalLink from '../../images/externallink.webp';
 
-// React.lazy(() => import('../images/proj1overlay.webp'));
-React.lazy(() => import('../images/proj2overlay.webp'));
-React.lazy(() => import('../images/proj3overlay.webp'));
-React.lazy(() => import('../images/proj4overlay.webp'));
-React.lazy(() => import('../images/proj5overlay.webp'));
-React.lazy(() => import('../images/proj6overlay.png'));
-React.lazy(() => import('../images/proj7overlay.png'));
+// React.lazy(() => import('../../images/proj1overlay.webp'));
+React.lazy(() => import('../../images/proj2overlay.webp'));
+React.lazy(() => import('../../images/proj3overlay.webp'));
+React.lazy(() => import('../../images/proj4overlay.webp'));
+React.lazy(() => import('../../images/proj5overlay.webp'));
+React.lazy(() => import('../../images/proj6overlay.png'));
+React.lazy(() => import('../../images/proj7overlay.png'));
 require('./Projects.css');
 
 export const Projects: React.FC = () => {

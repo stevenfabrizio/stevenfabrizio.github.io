@@ -3,10 +3,10 @@ import React from 'react';
 import './Nav.css';
 
 const Nav: React.FC = () => {
+  //determining if we should show the nav
   const [windowWidth, setWindowWidth] = React.useState<number>(
     window.innerWidth
   );
-
   const setWidth = () => {
     setWindowWidth(window.innerWidth);
   };
@@ -29,16 +29,6 @@ const Nav: React.FC = () => {
         </div>
       ) : (
         <>
-          {/* <div id="burgers">
-            ☰
-            <div></div>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#technologies">Technologies</a>
-            <a href="#contact">Contact</a>
-            <div></div>
-          </div> */}
-
           <nav id="hamnav">
             <label htmlFor="hamburger">&#9776;</label>
 
