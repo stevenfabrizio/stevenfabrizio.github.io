@@ -92,6 +92,8 @@
   align-self: center;
   justify-self: center;
   opacity: 0;
+
+  filter:sepia(15%);
 }
 .photo-anima {
   animation: photo-anima 1s linear forwards .05s;
@@ -127,7 +129,7 @@
   max-width: 700px;
 }
 .p-container * {
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
 
   font-size: 20px;
   font-weight: 400;

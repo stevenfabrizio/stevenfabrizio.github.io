@@ -9,7 +9,7 @@
 }
 .or {
   /* color: white; */
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
   grid-row: 1;
   grid-column: 1;
   letter-spacing: -1px;
@@ -33,19 +33,19 @@
   padding-bottom: 30px;
 }
 .my-email .gmx-email {
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
 
   font-size: 28px;
   letter-spacing: -1px;
   width: min-content;
 
   cursor: pointer;
-  text-decoration: underline rgb(10, 10, 10);
+  text-decoration: underline rgb(6, 6, 6);
 }
 .footer-icons {
   /* border-top: 4px double rgb(98, 98, 98); */
 
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(6, 6, 6);
 
   grid-row: 3;
   grid-column: 1;

@@ -11,4 +11,4 @@ Most of the animations are intersection observers with preconfigured classes bei
 
 # Future Improvements
 
-Perhaps use a more complicated design. The point of this is just to easily show some projects and some information. But the basic layout works for now. Maybe also update with a more responsive navbar/hamburger.
+Maybe use a more complicated design. The point of this is just to show some projects and some information. But the basic layout works for now. Maybe also update with a more responsive navbar.

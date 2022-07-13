@@ -55,7 +55,7 @@
 
   justify-self: start;
 
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
 }
 .proj-h3-anima {
   animation: proj-h3-anima 1.4s linear;
@@ -103,7 +103,7 @@
   border: 1px solid rgb(98, 98, 98);
 
   /* box-shadow: rgba(10,10,10, 0.7) 0px 4px 6px 0px; */
-  box-shadow: rgba(10, 10, 10, 0.3) 0px 1px 1px 0px;
+  box-shadow: rgba(6, 6, 6, 0.3) 0px 1px 1px 0px;
 
   /* outline: 1px solid rgb(200, 200, 200); */
   transition: 0.1s linear all;
@@ -251,7 +251,7 @@
   border-radius: 2px;
 }
 .proj h4 {
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
   cursor: pointer;
   width: 100%;
 
@@ -356,7 +356,7 @@
 .x-btn {
   line-height: 1;
   justify-self: end;
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
 
   /* outline: 2px solid rgb(10,10,10); */
   /* border: 1px solid rgb(98, 98, 98); */
@@ -371,7 +371,7 @@
   border-radius: 2px;
   font-weight: 400;
 
-  background-color: rgba(10, 10, 10, 0);
+  background-color: rgba(6, 6, 6, 0);
 
   cursor: pointer;
 
@@ -379,7 +379,7 @@
 }
 .x-btn:hover {
   color: white;
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(6, 6, 6);
 }
 #x1:hover,
 #x3:hover,
@@ -408,7 +408,7 @@
   align-items: center;
 }
 .project-h3-div h3 {
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
   grid-column: 1;
   grid-row: 1;
 
@@ -426,7 +426,7 @@
 }
 a {
   cursor: pointer;
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
   text-decoration: none;
 
   font-size: 24px;
@@ -444,7 +444,7 @@ a {
 
   grid-row: 4;
 
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
 
   font-size: 20px;
   line-height: 1.2;
@@ -513,7 +513,7 @@ a {
   }
 } */
 i {
-  color: rgb(10, 10, 10);
+  color: rgb(6, 6, 6);
 }
 a:hover {
   text-decoration: underline;
@@ -533,7 +533,7 @@ a:hover {
   filter: invert(1%);
 }
 .wiggles {
-  animation: wiggle 1.8s linear 1s infinite;
+  animation: wiggle 2.2s linear 1s infinite;
 }
 @keyframes wiggle {
   0%,
