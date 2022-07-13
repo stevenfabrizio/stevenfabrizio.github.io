@@ -32,6 +32,10 @@ html {
   scroll-margin-top: 70px;
 }
 
+input, textarea{
+  caret-color: rgb(74, 74, 74);
+}
+
 /* the animation for elements floating up */
 .translate-ele {
   animation: translate-anima 0.6s;

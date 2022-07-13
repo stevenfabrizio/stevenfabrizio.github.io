@@ -94,7 +94,7 @@
   justify-self: center;
   opacity: 0;
 
-  filter:sepia(15%);
+  filter: saturate(85%);
 }
 .photo-anima {
   animation: photo-anima 1s linear forwards .05s;
