@@ -5,14 +5,12 @@ import Self from '../../images/self.png';
 
 const AboutMe: React.FC = () => {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" id="about">
       <div className="abT"></div>
 
       <div className="photo-container">
         <div className="photo-frame">
-          <p className="thats-me" id="about">
-            That's me!
-          </p>
+          <p className="thats-me">That's me!</p>
           <p className="curved-arrow">⤸</p>
           <img
             alt="my-photo"
@@ -34,7 +32,7 @@ const AboutMe: React.FC = () => {
           <br />
           {/* <span className="first">I </span>
           <span className="second">have</span>on't   */}
-          I'm a self-taught developer based in Raleigh.
+          I'm a developer based in Raleigh.
           <br />
           <br />
           I love web development because I am a math and logic oriented person

@@ -2025,11 +2025,11 @@ const react_1 = __importDefault(__webpack_require__(7294));
 __webpack_require__(8674);
 const self_png_1 = __importDefault(__webpack_require__(9710));
 const AboutMe = () => {
-    return (react_1.default.createElement("div", { className: "about-me-container" },
+    return (react_1.default.createElement("div", { className: "about-me-container", id: "about" },
         react_1.default.createElement("div", { className: "abT" }),
         react_1.default.createElement("div", { className: "photo-container" },
             react_1.default.createElement("div", { className: "photo-frame" },
-                react_1.default.createElement("p", { className: "thats-me", id: "about" }, "That's me!"),
+                react_1.default.createElement("p", { className: "thats-me" }, "That's me!"),
                 react_1.default.createElement("p", { className: "curved-arrow" }, "\u2938"),
                 react_1.default.createElement("img", { alt: "my-photo", loading: "lazy", decoding: "async", className: "thumbnail overlay-img", src: self_png_1.default }))),
         react_1.default.createElement("div", { className: "p-container translate-eles" },
@@ -2039,7 +2039,7 @@ const AboutMe = () => {
                     react_1.default.createElement("span", { className: "wave-hand" }, "\uD83D\uDC4B")),
                 react_1.default.createElement("br", null),
                 react_1.default.createElement("br", null),
-                "I'm a self-taught developer based in Raleigh.",
+                "I'm a developer based in Raleigh.",
                 react_1.default.createElement("br", null),
                 react_1.default.createElement("br", null),
                 "I love web development because I am a math and logic oriented person with a creative spirit. Elegent web solutions and beautiful websites inspire me. I want to create them with a strong team that is passionate like me.",
