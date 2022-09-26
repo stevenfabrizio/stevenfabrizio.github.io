@@ -16,8 +16,8 @@ const AboutMe: React.FC = () => {
             alt="my-photo"
             loading="lazy"
             decoding="async"
-            className="thumbnail overlay-img"
-            src={Self}
+            className="thumbnail overlay-img" 
+            // src={Self}
           />
         </div>
       </div>

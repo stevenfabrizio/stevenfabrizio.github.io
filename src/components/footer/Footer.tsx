@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           <a
             title="pdf"
             target="_blank"
-            href="https://cdn.discordapp.com/attachments/840740146176851979/974128549596381194/developer-res.pdf"
+            // href="https://cdn.discordapp.com/attachments/840740146176851979/974128549596381194/developer-res.pdf"
           >
             <svg fill={'rgb(234, 238, 233)'} viewBox="0 0 512 512">
               <path d="M485.88,512H26.12V0h293L485.88,161.64ZM44.12,494H467.88V169.26L311.82,18H44.12Z" />

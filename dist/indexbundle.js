@@ -2023,7 +2023,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(7294));
 __webpack_require__(8674);
-const self_png_1 = __importDefault(__webpack_require__(9710));
 const AboutMe = () => {
     return (react_1.default.createElement("div", { className: "about-me-container", id: "about" },
         react_1.default.createElement("div", { className: "abT" }),
@@ -2031,7 +2030,7 @@ const AboutMe = () => {
             react_1.default.createElement("div", { className: "photo-frame" },
                 react_1.default.createElement("p", { className: "thats-me" }, "That's me!"),
                 react_1.default.createElement("p", { className: "curved-arrow" }, "\u2938"),
-                react_1.default.createElement("img", { alt: "my-photo", loading: "lazy", decoding: "async", className: "thumbnail overlay-img", src: self_png_1.default }))),
+                react_1.default.createElement("img", { alt: "my-photo", loading: "lazy", decoding: "async", className: "thumbnail overlay-img" }))),
         react_1.default.createElement("div", { className: "p-container translate-eles" },
             react_1.default.createElement("p", null,
                 react_1.default.createElement("span", { className: "hello" },
@@ -2162,7 +2161,7 @@ const Footer = () => {
                             react_1.default.createElement("g", { id: "Github_1_" },
                                 react_1.default.createElement("path", { d: "M16,0C7.2,0,0,7.2,0,16       c0,8.8,7.2,16,16,16c8.8,0,16-7.2,16-16C32,7.2,24.8,0,16,0z M20,29.7c0-0.1,0-0.2,0-0.3c0-0.5,0-2.3,0-4.4       c0-1.5-0.5-2.5-1.1-3c3.6-0.4,7.3-1.8,7.3-7.9c0-1.7-0.6-3.2-1.6-4.3c0.2-0.4,0.7-2-0.2-4.2c0,0-1.3-0.4-4.4,1.6       c-1.3-0.4-2.6-0.5-4-0.5c-1.4,0-2.7,0.2-4,0.5C8.9,5.2,7.6,5.6,7.6,5.6C6.7,7.8,7.3,9.5,7.4,9.9c-1,1.1-1.6,2.5-1.6,4.3       c0,6.1,3.7,7.5,7.3,7.9c-0.5,0.4-0.9,1.1-1,2.1c-0.9,0.4-3.2,1.1-4.7-1.3c0,0-0.8-1.5-2.5-1.6c0,0-1.6,0-0.1,1       c0,0,1,0.5,1.8,2.3c0,0,0.9,3.1,5.4,2.1c0,1.3,0,2.3,0,2.7c0,0.1,0,0.2,0,0.2C6.2,27.9,2,22.6,2,16.3c0-7.7,6.3-14,14-14       c7.7,0,14,6.3,14,14C30,22.6,25.8,27.9,20,29.7z", id: "Github" })))))),
             react_1.default.createElement("div", { className: "resume" },
-                react_1.default.createElement("a", { title: "pdf", target: "_blank", href: "https://cdn.discordapp.com/attachments/840740146176851979/974128549596381194/developer-res.pdf" },
+                react_1.default.createElement("a", { title: "pdf", target: "_blank" },
                     react_1.default.createElement("svg", { fill: 'rgb(234, 238, 233)', viewBox: "0 0 512 512" },
                         react_1.default.createElement("path", { d: "M485.88,512H26.12V0h293L485.88,161.64ZM44.12,494H467.88V169.26L311.82,18H44.12Z" }),
                         react_1.default.createElement("polygon", { points: "477.08 174.17 306.66 174.17 306.66 8.96 324.66 8.96 324.66 156.17 477.08 156.17 477.08 174.17" }),
@@ -2749,14 +2748,6 @@ module.exports = __webpack_require__.p + "5b2fbb5cd05157447c02.webp";
 
 "use strict";
 module.exports = __webpack_require__.p + "b099f25ed2553c58178a.png";
-
-/***/ }),
-
-/***/ 9710:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "656a9438b446fe1f512e.png";
 
 /***/ }),
 
